@@ -1,6 +1,8 @@
 <h1 align="center">MomoTalk - Discord Theme</span></h1>
 <h3 align="center">Finally, become Sensei in real life by customizing your Discord to look like the app from the Blue Archive game!</h3>
 
+<img align="center" src="https://miyakukage.github.io/discord-momotalk/misc/light.png">
+
 <p>Disclaimer : I am nowhere near a professional coder, if you encounter any issues, please let me know on Twitter @KageMiyaku, or on Reddit u/MiyakuKage.</p>
 
 <hr>
