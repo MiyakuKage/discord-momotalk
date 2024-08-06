@@ -1,0 +1,481 @@
+
+
+/* Change Colors Here!!!! */
+:root {
+	--background-primary: #FFFFFF;
+	
+	--momotalkbanner: #FB90A4;
+	
+	--senseimessagebubble: #4A8AC8;
+	--messagebubble: #4C5B6F;
+	
+	--username: #3F444A;
+	
+	--sidebar: #505C72;
+	
+	--searchbars: #303C51;
+
+	--callcolor: #505C72;
+	--callimage: url('your image url here.png');
+
+	--callbuttons: #303C51;
+	--hangup: #FB90A4;
+	
+	--bgimage: url('your image url here.png');
+
+}
+
+
+
+
+
+
+/*NEW IMAGE METHOD*/
+.wrapper_c5f96a:hover .childWrapper_f90abb, .childWrapper_f90abb {background-color: transparent;} /*replace with colour if you want a colour behind your image */
+#app-mount .tutorialContainer_f9623d .childWrapper_f90abb {
+    background-image: url('https://i.imgur.com/UEiRGq4.png');
+/*    height: 150%;
+    width: 150%;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.childWrapper_f90abb svg {display: none;}
+
+.childWrapper_f90abb.childWrapperNoHoverBg_f90abb {
+	background-color: transparent !important;
+}
+
+.listItemWrapper_dfb2f8.selected_dfb2f8{
+	background-color: #66778B !important;
+}
+
+/* That annoying hole next to server names */
+[class^=sidebar_] { border-radius: 0 !important; }
+
+/* Now Typing */
+.typing_d7ebeb {
+ color:var(--username); 	
+}
+.typingDots_d7ebeb {
+ backgcolor:var(--username); 	
+}
+
+/* Custom Background Image */
+.chatContent_a7d72e {
+  background-image:var(--bgimage);
+  background-size: cover;
+}
+
+
+/* Message font */
+.markup_f8f345{
+    color: white;
+}
+
+
+/* Usernames */
+.username_f9f2ca{
+    color:var(--username); !important; 
+        font-weight: bold;
+        margin-left: 8px;
+
+}
+
+/* Message container */
+.contents_f9f2ca .markup_f8f345 {
+    display: inline-block;
+    z-index: 1; 
+	background-color:var(--messagebubble);
+    border-radius: 10px;
+    padding: 5px 15px; 
+    margin-left: 12px;     
+	max-width: 600px;
+}
+
+
+
+
+/* Message container for images */
+[data-is-self="false"] .container_b558d0 {
+
+    bottom: 5px;
+    
+	background-color:var(--messagebubble);
+    border-radius: 10px;
+    padding: 5px 15px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    margin-left: 12px;  
+    transform: translate(0px, -12px);
+}
+
+
+
+/* Little arrow in message containers  */
+[data-is-self="false"] .groupStart_d5deea::after {
+
+    content: "\25BA";
+	color:var(--messagebubble);
+    font-size: 15px;
+    display: block;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 74px;
+    top: 28px;
+    border-radius: 4px;
+}
+
+/* Little arrow in message containers for replies!*/
+[data-is-self="false"] .hasReply_f9f2ca::after {
+
+    content: "\25BA";
+	color:var(--messagebubble);
+    font-size: 15px;
+    display: block;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 75px;
+    top: 53px;
+    border-radius: 4px;
+}
+
+/* Avatar size */
+
+.avatar_f9f2ca{
+ height: 55px;
+ width: 55px;
+}
+
+/* Decoration size */
+
+.avatarDecoration_f9f2ca{
+ height: 65px;
+ width: 65px;
+}
+
+/* Title Bar */
+.titleBar_a934d8 {
+background-color:var(--momotalkbanner);
+height: 37px;
+margin-top: 1px;
+}
+
+.winButton_a934d8 {
+    color: white;
+    height: 27px;
+    width:30px;
+    right: 10px;
+    top: 2px;
+    margin-left: 31px;
+    transform: scale(1.5); 
+}
+
+
+
+/* Watermark*/
+.wordmark_a934d8 svg {
+display:none;
+}
+
+.wordmark_a934d8::after {
+    top: -59px;
+    left: 1px;
+    position: relative;
+    content: "";
+    display: inline-block;
+    width: 150px; 
+    height: 150px;
+    background-image: url(https://i.imgur.com/7PHPCpk.png);
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+/* Mentions color */
+.mentioned_d5deea    {
+		background-color: #F9D9DF;
+}
+
+/* Friends Tab */
+.theme-dark.images-dark.container_fc4f04.themed_fc4f04 {
+		background-color: #E7F0F7;
+}
+.username_f3939d{
+	color: #3A4446; !important
+}
+
+.scroller_bf550a {
+  background-image: url('https://i.imgur.com/OJgUygB.png'); 
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: bottom; 
+
+}
+
+/* Scrollbar */
+.scroller_e2e187::-webkit-scrollbar {
+    width: 15px; 
+}
+
+
+.scroller_e2e187::-webkit-scrollbar-track {
+    background-color: #E1E4E6; 
+}
+
+.scroller_e2e187::-webkit-scrollbar-thumb {
+    background-col: #B0B0B0; 
+    border-radius: 8px; 
+}
+
+
+/* Channel bar */
+
+.title_a7d72e.container_fc4f04.themed_fc4f04{
+  background-color: #E7F0F7 !important;
+
+}
+
+.icon_d8bfb3 {
+	color: #4ABDD8 !important;
+}
+
+
+.title_fc4f04{
+  color: black;
+}
+
+.icon_fc4f04 {
+  color: #4ABDD8;
+}
+
+
+/* Server list */
+.scroller_fea3ef {
+background-color:var(--sidebar) !important;
+	
+}
+
+.guildSeparator_d0c57e {
+	background-color: #4ABDD8;
+    width: 50px;
+	
+}
+
+/* Calls */
+.root_dd069c {
+ background-color:var(--callcolor) !important;
+  background-image:var(--callimage) !important;
+  background-size: cover;
+  background-position: top;
+}
+.red_ef18ee {
+	background-color:var(--hangup) !important;
+}
+.red_ef18ee:hover {
+    filter: brightness(0.8);
+}
+
+.primaryDark_ef18ee  {
+	background-color:var(--callbuttons) !important;
+}
+
+/* Channel List */
+.container_ee69e0 {
+background-color:var(--sidebar) !important;
+
+}
+
+
+.containerDefault_f6f816.selected_f6f816 .link_d8bfb3  {
+	background-color: #68798D !important;
+	
+}
+
+/* DM List */
+.scroller_c47fa9  {
+background-color:var(--sidebar) !important;
+
+
+}
+
+.searchBar_f0963d {
+background-color:var(--sidebar) !important;
+}
+
+.selected_f5eb4b {
+	background-color: #68798D !important;
+	
+}
+
+/* Account container */
+.container_b2ca13 {
+  background-color:var(--momotalkbanner) !important;
+}
+.contents_dd4f85  {
+	color: white;
+
+}
+
+/* Message Bar */
+.scrollableContainer_d0696b {
+  background-color:var(--senseimessagebubble);
+}
+.slateTextArea_e52116   {
+	color: white;
+}
+
+.activeButtonChild_a06035  {
+	color: #EFB7D0;
+}
+
+/* Search Bars */
+.searchBarComponent_f0963d {
+background-color:var(--searchbars) !important;
+}
+.searchBar_a46bef {
+background-color:var(--searchbars) !important;
+}
+.searchBar_e0840f  {
+background-color:var(--searchbars) !important;
+}
+
+/* Settings Menu (there is totally a better way of doing this) */
+
+.h1_c46f6a {
+	 color: black;
+}
+
+
+.tabBarItem_bff66b.item_a0.brand_a0.selected_a0 {
+	color: black;
+}
+
+.vc-settings-tab-bar-item.item_a0.brand_a0.selected_a0 {
+	color: black;
+}
+
+.vc-settings-card {
+	color: black;
+}
+
+.formText_b89ec7 {
+	color: white !important;
+}
+
+.gameName_fd966d {
+	color: black;
+}
+
+.formText_b89ec7{
+	color: black !important;
+}
+
+.tab_d8bb15.item_a0.brand_a0.selected_a0 {
+	color: black;
+}
+
+.settingsTabBarItem_d576e9.item_a0.brand_a0.selected_a0 {
+	color: black;
+}
+
+.title_ed1d57 {
+	 color: black;
+}
+
+.button_dd4f85.lookOutlined_dd4f85.colorRed_dd4f85.sizeSmall_dd4f85.grow_dd4f85 {
+  /* Your styles here */
+  background-color: #FB94A7;
+}
+
+.description_b89ec7 {
+ color: gray;	
+}
+
+/* Other standard color?? scary if you don't know what the second thing in your project really does*/
+.colorStandard_fbc755 {
+	    color:var(--username);
+}
+
+/* MAKING YOUR MESSAGES FANCY AND TO THE LEFT*/
+/* Self Message container */
+[data-is-self="true"] .contents_f9f2ca .markup_f8f345 {
+  background-color:var(--senseimessagebubble);
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+/* Move Username */
+[data-is-self="true"] .header_f9f2ca{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+
+/* Move Profile Pic */
+[data-is-self="true"] .avatar_f9f2ca{
+    left: unset;
+    right: 4px;
+}
+
+/* Move Decoration */
+[data-is-self="true"] .avatarDecoration_f9f2ca{
+    left: unset;
+    right: 0px;
+}
+
+
+/* Self Little arrow in message containers */
+[data-is-self="true"] .groupStart_d5deea::after {
+  color:var(--senseimessagebubble);
+    content: "\25BA";
+    font-size: 15px;
+    display: block;
+    transform: rotate(0deg);
+    position: absolute;
+    right: 69px; /* Align to the right */
+    top: 30px;
+    border-radius: 4px;
+}
+
+/* Little arrow in message containers for replies! */
+[data-is-self="true"] .hasReply_f9f2ca::after {
+
+    content: "\25BA";
+  color:var(--senseimessagebubble);
+    font-size: 15px;
+    display: block;
+    transform: rotate(0deg);
+    position: absolute;
+    right: 69px; 
+    top: 53px;
+    border-radius: 4px;
+}
+
+/* Self Message container for images */
+ .container_b558d0 {
+  background-color:var(--senseimessagebubble);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px 15px; 
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: 30px;
+    bottom: 10px;
+}
+
+
+/* Trying to make replies appear right auwfigdfuighdfudg (that actually was suprisingly easy wow! hey, what are you doing all the way here?!!) */
+[data-is-self="true"] .repliedMessage_f9f2ca {
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 30px;	
+}
