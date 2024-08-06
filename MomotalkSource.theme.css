@@ -426,9 +426,17 @@ background-color:var(--searchbars) !important;
 	    color:var(--username);
 }
 
+/*Other colors?*/
 .defaultColor_a595eb {
 color:var(--username);	
 }
+.card_a298b8 {
+background-color:var(--topbar) !important;	
+}
+.vc-addon-card {
+background-color:var(--topbar) !important;	
+}
+
 /* MAKING YOUR MESSAGES FANCY AND TO THE LEFT*/
 /* Self Message container */
 [data-is-self="true"] .contents_f9f2ca .markup_f8f345 {
