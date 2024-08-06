@@ -9,6 +9,8 @@
 	--senseimessagebubble: #4A8AC8;
 	--messagebubble: #4C5B6F;
 	
+	--text-link: #CCD3FF;
+	
 	--messagefontcolor: #FFFFFF;
 	
 	--username: #3F444A;
@@ -27,11 +29,13 @@
 	
 	--bgimage: url('your image url here.png');
 
-	--settingsfontcolor: #000000
+	--settingsfontcolor: #000000;
+	
+
 }
 
 
-/*amog*/
+
 
 
 
@@ -217,10 +221,8 @@ display:none;
     background-position: center; 
 }
 
-/* Mentions color */
-.mentioned_d5deea    {
-		background-color: #F9D9DF;
-}
+/*Links Color*/
+
 
 /* Friends Tab */
 .theme-dark.images-dark.container_fc4f04.themed_fc4f04 {
