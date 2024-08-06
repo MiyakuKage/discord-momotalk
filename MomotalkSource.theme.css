@@ -9,9 +9,13 @@
 	--senseimessagebubble: #4A8AC8;
 	--messagebubble: #4C5B6F;
 	
+	--messagefontcolor: #FFFFFF;
+	
 	--username: #3F444A;
 	
 	--sidebar: #505C72;
+	
+	--topbar: #E7F0F7;
 	
 	--searchbars: #303C51;
 
@@ -23,6 +27,7 @@
 	
 	--bgimage: url('your image url here.png');
 
+	--settingsfontcolor: #000000
 }
 
 
@@ -30,7 +35,7 @@
 
 
 
-/*NEW IMAGE METHOD*/
+/*Home Image*/
 .wrapper_c5f96a:hover .childWrapper_f90abb, .childWrapper_f90abb {background-color: transparent;} /*replace with colour if you want a colour behind your image */
 #app-mount .tutorialContainer_f9623d .childWrapper_f90abb {
     background-image: url('https://i.imgur.com/UEiRGq4.png');
@@ -47,11 +52,16 @@
 }
 
 .listItemWrapper_dfb2f8.selected_dfb2f8{
-	background-color: #66778B !important;
+	background-color: #66778B !important;	
 }
 
 /* That annoying hole next to server names */
 [class^=sidebar_] { border-radius: 0 !important; }
+
+/* and that weird gradient in the top bar */
+.theme-dark .children_fc4f04:after {
+    background: transparent;
+}
 
 /* Now Typing */
 .typing_d7ebeb {
@@ -70,7 +80,7 @@
 
 /* Message font */
 .markup_f8f345{
-    color: white;
+    color:var(--messagefontcolor);
 }
 
 
@@ -124,7 +134,21 @@
     position: absolute;
     left: 74px;
     top: 28px;
-    border-radius: 4px;
+    border-radius: 5px;
+}
+
+/* Little arrow in message containers for welcome messages and all*/
+.isSystemMessage_f9f2ca::after{
+
+    content: "\25BA";
+	color:var(--messagebubble);
+    font-size: 15px;
+    display: block;
+    transform: rotate(180deg);
+    position: absolute;
+    left: 74px;
+    top: 10px !important;
+    border-radius: 5px;
 }
 
 /* Little arrow in message containers for replies!*/
@@ -214,6 +238,10 @@ display:none;
 
 }
 
+.itemCard_f02fcf  {
+	background-color:var(--topbar);
+}
+
 /* Scrollbar */
 .scroller_e2e187::-webkit-scrollbar {
     width: 15px; 
@@ -233,7 +261,7 @@ display:none;
 /* Channel bar */
 
 .title_a7d72e.container_fc4f04.themed_fc4f04{
-  background-color: #E7F0F7 !important;
+  background-color:var(--topbar) !important;
 
 }
 
@@ -344,20 +372,20 @@ background-color:var(--searchbars) !important;
 /* Settings Menu (there is totally a better way of doing this) */
 
 .h1_c46f6a {
-	 color: black;
+	 color:var(--settingsfontcolor);
 }
 
 
 .tabBarItem_bff66b.item_a0.brand_a0.selected_a0 {
-	color: black;
+	 color:var(--settingsfontcolor);
 }
 
 .vc-settings-tab-bar-item.item_a0.brand_a0.selected_a0 {
-	color: black;
+	 color:var(--settingsfontcolor);
 }
 
 .vc-settings-card {
-	color: black;
+	 color:var(--settingsfontcolor);
 }
 
 .formText_b89ec7 {
@@ -365,23 +393,23 @@ background-color:var(--searchbars) !important;
 }
 
 .gameName_fd966d {
-	color: black;
+	 color:var(--settingsfontcolor);
 }
 
 .formText_b89ec7{
-	color: black !important;
+	 color:var(--settingsfontcolor) !important;
 }
 
 .tab_d8bb15.item_a0.brand_a0.selected_a0 {
-	color: black;
+	 color:var(--settingsfontcolor);
 }
 
 .settingsTabBarItem_d576e9.item_a0.brand_a0.selected_a0 {
-	color: black;
+	 color:var(--settingsfontcolor);
 }
 
 .title_ed1d57 {
-	 color: black;
+	 color:var(--settingsfontcolor);
 }
 
 .button_dd4f85.lookOutlined_dd4f85.colorRed_dd4f85.sizeSmall_dd4f85.grow_dd4f85 {
@@ -398,6 +426,9 @@ background-color:var(--searchbars) !important;
 	    color:var(--username);
 }
 
+.defaultColor_a595eb {
+color:var(--username);	
+}
 /* MAKING YOUR MESSAGES FANCY AND TO THE LEFT*/
 /* Self Message container */
 [data-is-self="true"] .contents_f9f2ca .markup_f8f345 {
