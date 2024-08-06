@@ -265,6 +265,13 @@ display:none;
 
 }
 
+/* New Messages */
+
+.newMessagesBar_cf58b5 {
+  background-color:var(--momotalkbanner) !important;
+
+}
+
 .icon_d8bfb3 {
 	color: #4ABDD8 !important;
 }
@@ -274,6 +281,9 @@ display:none;
   color: black;
 }
 
+.name_fd6364 {
+	color:var(--messagefontcolor) !important;
+}
 .icon_fc4f04 {
   color: #4ABDD8;
 }
@@ -308,6 +318,67 @@ background-color:var(--sidebar) !important;
 .primaryDark_ef18ee  {
 	background-color:var(--callbuttons) !important;
 }
+
+/* Voice Chat */
+.container_adcaac {
+	 background-color:var(--callcolor) !important;
+}
+.buttonColor_adcaac{
+	 background-color:#303C51 !important;
+}
+
+/* Screenshare */
+.modalSize_e1cc86 {
+	 background-color:var(--callcolor) !important;
+}
+
+/* Emoji/Sticker/GifTab */
+.contentWrapper_af5dbb {
+	 background-color:var(--callcolor) !important;
+}	
+.wrapper_e06857.header_a3bc57 {
+	 background-color:var(--topbar) !important;
+}	
+.inspector_c3120f.inspector_c6ee36 {
+	 background-color:var(--topbar) !important;
+}	
+.inner_effbe2.thin_c49869.scrollerBase_c49869{
+	 background-color:var(--searchbars) !important;
+}	
+.scroller_d53d65.none_c49869.scrollerBase_c49869{
+	 background-color:var(--searchbars) !important;
+}	
+.unicodeShortcut_dfa278{
+	 background-color:var(--searchbars) !important;
+}	
+.categoryItemDefaultCategory_dfa278 {
+	 background-color:var(--searchbars) !important;
+}	
+.stickerCategory_a7a485 {
+	 background-color:var(--searchbars) !important;
+}	
+.wrapper_e06857.packHeader_de4721 {
+		 background-color:var(--topbar) !important;
+}
+.standardStickerShortcut_a7a485 {
+	 background-color:var(--topbar) !important;
+}	
+.inspector_c3120f {
+	 background-color:var(--topbar) !important;
+}	
+.inner_c18ec9 {
+	 background-color:var(--searchbars) !important;
+}	
+.header_b56bbc {
+	 background-color:var(--callcolor) !important;
+}	
+.content_b56bbc {
+	 background-color:var(--callcolor) !important;
+}	
+
+
+
+
 
 /* Channel List */
 .container_ee69e0 {
@@ -478,6 +549,19 @@ background-color:var(--topbar) !important;
     transform: rotate(0deg);
     position: absolute;
     right: 69px; /* Align to the right */
+    top: 30px;
+    border-radius: 4px;
+}
+
+/* Self Little arrow for calls?? idk*/
+[data-is-self="true"] .isSystemMessage_f9f2ca::after {
+  color:transparent;
+    content: "\25BA";
+    font-size: 15px;
+    display: block;
+    transform: rotate(0deg);
+    position: absolute;
+    right: 9px; /* Align to the right */
     top: 30px;
     border-radius: 4px;
 }
