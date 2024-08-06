@@ -6,7 +6,7 @@
 <hr>
 
 # HOW TO INSTALL
-- 1. Install the Discord Desktop App, then the Vencord mod for it. (Not compatible with BetterDiscord for now!)
+<p>- 1. Install the Discord Desktop App, then the Vencord mod for it. (Not compatible with BetterDiscord for now!)
 - 2. Once on Vencord, go into Settings > Plugins, and enable the "ThemeAttributes" plugin, then restart the app.
-- 3. Go into Settings > Themes > Open Themes folder, and put one of these files into said folder :
+- 3. Go into Settings > Themes > Open Themes folder, and put one of these files into said folder :</p>
   
