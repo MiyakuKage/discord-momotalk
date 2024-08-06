@@ -12,4 +12,6 @@
       <center>
         <a href="https://www.example.com/link1">Download MomoTalk Theme (Light Mode)</a> / 
         <a href="https://www.example.com/link2">>Download MomoTalk Theme (Dark Mode)</a>
-    </center>
+    </center><br>
+● 4. On Discord, press the "Load Missing Themes" button, and enable it!<br>
+● 4.5 If you want, you can edit the downloaded files to put your own colors, or even a custom background image!
