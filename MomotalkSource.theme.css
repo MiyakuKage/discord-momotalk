@@ -499,11 +499,12 @@
 
 		.markup_f8f345.messageContent_f9f2ca {
 			margin-left: 11px;
+			left: 2px;
 		}
 	}
 
 	.container_b558d0 {
-		left: 10px;
+		left: 13px;
 	}
 }
 
@@ -513,8 +514,12 @@
 	align-items: end;
 
 	/* Flip discord paddings */
-	padding-right: var(--custom-message-margin-left-content-cozy) !important;
 	padding-left: 48px;
+	padding-right: var(--custom-message-margin-horizontal) !important;
+
+	&.cozy_f9f2ca {
+		padding-right: var(--custom-message-margin-left-content-cozy) !important;
+	}
 
 	&.groupStart_d5deea::after {
 		transform: rotate(0deg);
@@ -532,12 +537,12 @@
 		}
 
 		.markup_f8f345.messageContent_f9f2ca {
-			right: 8px;
+			right: 9px;
 		}
 	}
 
 	.container_b558d0 {
-		right: 8px;
+		right: 9px;
 	}
 
 	.timestamp_f9f2ca {
