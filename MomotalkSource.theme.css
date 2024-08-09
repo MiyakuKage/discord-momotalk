@@ -442,14 +442,22 @@
 	flex-direction: column;
 
 	/* Message reply arrow*/
-	&.groupStart_d5deea>.contents_f9f2ca>.markup_f8f345::after,
-	&.isSystemMessage_f9f2ca>.contents_f9f2ca>.markup_f8f345::after {
+	&.groupStart_d5deea>.contents_f9f2ca::after,
+	&.isSystemMessage_f9f2ca>.contents_f9f2ca::after {
 		content: "\25BA";
 		position: absolute;
-		top: 3px;
 		color: var(--messagebubble);
 		border-radius: 5px;
 		font-size: 15px;
+	}
+	&.groupStart_d5deea>.contents_f9f2ca::after {
+		top: 30px;
+	}
+	&.groupStart_d5deea.hasReply_f9f2ca>.contents_f9f2ca::after {
+		top: 53px;
+	}
+	&.isSystemMessage_f9f2ca>.contents_f9f2ca::after {
+		top: 9px;
 	}
 
 	>.contents_f9f2ca {
