@@ -456,7 +456,7 @@
 		display: flex;
 		flex-direction: column;
 
-		.markup_f8f345.messageContent_f9f2ca {
+		.markup_f8f345 {
 			display: inline-block;
 			padding: 5px 15px;
 			margin-left: 0px;
@@ -473,10 +473,19 @@
 	}
 
 	.container_b558d0 {
-		background-color: var(--messagebubble);
-		border-radius: var(--momo-messages-border-radius);
-		width: fit-content;
-		padding: 20px;
+		padding: 0;
+	
+		>.visualMediaItemContainer_cda674, .inlineMediaEmbed_b0068a {
+			height: initial;
+			background-color: var(--messagebubble);
+			border-radius: var(--momo-messages-border-radius);
+			width: fit-content;
+			padding: 20px;
+		}
+
+		.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
+			color: var(--brand-560);
+		}
 	}
 }
 
@@ -524,7 +533,7 @@
 			right: var(--custom-message-margin-horizontal);
 		}
 
-		.markup_f8f345.messageContent_f9f2ca {
+		.markup_f8f345 {
 			right: 9px;
 
 			&::after {
