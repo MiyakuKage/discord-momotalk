@@ -471,7 +471,6 @@
 
 		.markup_f8f345 {
 			padding: 5px 15px;
-			margin-left: 0px;
 			max-width: 600px;
 			border-radius: var(--momo-messages-border-radius);
 			background-color: var(--messagebubble);
@@ -479,7 +478,7 @@
 		}
 	}
 
-	&:has(>.contents_f9f2ca>.markup_f8f345.messageContent_f9f2ca:empty)>.container_b558d0 {
+	&:has(>.contents_f9f2ca>.markup_f8f345:empty)>.container_b558d0 {
 		top: initial;
 	}
 
@@ -522,14 +521,8 @@
 	}
 
 	/* Border handling for messages with content attached */
-	&:has(.container_b558d0>:not(.reactions_ec6b19)) {
-		.contents_f9f2ca>.markup_f8f345 {
-			border-bottom-left-radius: 0;
-		}
-
-		&:has(>.contents_f9f2ca>.markup_f8f345.messageContent_f9f2ca:not(:empty))>.container_b558d0 {
-			border-top-left-radius: 0;
-		}
+	&:has(.container_b558d0>:not(.reactions_ec6b19)) .contents_f9f2ca>.markup_f8f345 {
+		border-bottom-left-radius: 0;
 	}
 }
 
@@ -579,14 +572,8 @@
 	}
 
 	/* Border handling for messages with content attached */
-	&:has(.container_b558d0>:not(.reactions_ec6b19)) {
-		.contents_f9f2ca>.markup_f8f345 {
-			border-bottom-right-radius: 0;
-		}
-
-		&:has(>.contents_f9f2ca>.markup_f8f345.messageContent_f9f2ca:not(:empty))>.container_b558d0 {
-			border-top-right-radius: 0;
-		}
+	&:has(.container_b558d0>:not(.reactions_ec6b19)) .contents_f9f2ca>.markup_f8f345 {
+		border-bottom-right-radius: 0;
 	}
 
 	/* Very hacky way of fixing the reply "glyph" */
