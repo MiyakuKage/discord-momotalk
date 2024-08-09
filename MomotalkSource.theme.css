@@ -465,7 +465,6 @@
 		flex-direction: column;
 
 		.markup_f8f345 {
-			display: inline-block;
 			padding: 5px 15px;
 			margin-left: 0px;
 			max-width: 600px;
@@ -481,9 +480,13 @@
 	}
 
 	.container_b558d0 {
+		display: flex;
+		flex-direction: column;
+		align-items: end;
 		padding: 0;
 	
-		>.visualMediaItemContainer_cda674, .inlineMediaEmbed_b0068a {
+		>:not(.reactions_ec6b19) {
+			align-self: flex-end;
 			height: initial;
 			background-color: var(--messagebubble);
 			border-radius: var(--momo-messages-border-radius);
@@ -505,18 +508,28 @@
 		align-items: start;
 
 		.markup_f8f345 {
-			margin-left: 11px;
-			left: 2px;
+			margin-left: 13px;
+		}
 
-			&::after {
-				transform: rotate(180deg);
-				left: -11px;
-			}
+		&::after {
+			left: 74px;
+			transform: rotate(180deg);
 		}
 	}
 
 	.container_b558d0 {
-		left: 13px;
+		margin-left: 13px;
+	}
+
+	/* Border handling for messages with content attached */
+	&:has(.container_b558d0>:not(.reactions_ec6b19)) {
+		.contents_f9f2ca>.markup_f8f345 {
+			border-radius: var(--momo-messages-border-radius) var(--momo-messages-border-radius) var(--momo-messages-border-radius) 0;
+		}
+
+		&:has(>.contents_f9f2ca>.markup_f8f345.messageContent_f9f2ca:not(:empty))>.container_b558d0>:not(.reactions_ec6b19) {
+			border-radius: 0 var(--momo-messages-border-radius) var(--momo-messages-border-radius);
+		}
 	}
 }
 
@@ -534,7 +547,9 @@
 	}
 
 	>.contents_f9f2ca {
+		margin-right: 9px;
 		align-items: end;
+		flex: 1;
 
 		img.avatar_f9f2ca {
 			left: initial;
@@ -542,16 +557,16 @@
 		}
 
 		.markup_f8f345 {
-			right: 9px;
+			flex: 1;
+		}
 
-			&::after {
-				right: -11px;
-			}
+		&::after {
+			right: 70px;
 		}
 	}
 
 	.container_b558d0 {
-		right: 9px;
+		margin-right: 9px;
 	}
 
 	.timestamp_f9f2ca {
@@ -559,12 +574,24 @@
 		right: 0;
 	}
 
+	/* Switch end buttons appears to avoid covering text */
 	.buttonContainer_f9f2ca {
 		right: initial;
 		left: 0px;
 
 		>div {
 			right: initial;
+		}
+	}
+
+	/* Border handling for messages with content attached */
+	&:has(.container_b558d0>:not(.reactions_ec6b19)) {
+		.contents_f9f2ca>.markup_f8f345 {
+			border-radius: var(--momo-messages-border-radius) var(--momo-messages-border-radius) 0;
+		}
+
+		&:has(>.contents_f9f2ca>.markup_f8f345.messageContent_f9f2ca:not(:empty))>.container_b558d0>:not(.reactions_ec6b19) {
+			border-radius: var(--momo-messages-border-radius) 0 var(--momo-messages-border-radius) var(--momo-messages-border-radius);
 		}
 	}
 
