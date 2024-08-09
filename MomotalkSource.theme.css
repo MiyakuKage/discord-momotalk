@@ -477,7 +477,8 @@
 	}
 
 	.container_b558d0 {
-		background-color: var(--messagebubble);
+		background-color: transparent;
+		border: 1px solid var(--messagebubble);
 		border-radius: var(--momo-messages-border-radius);
 		width: fit-content;
 		padding: 20px 15px;
