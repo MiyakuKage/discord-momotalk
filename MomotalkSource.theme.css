@@ -144,7 +144,6 @@
 
 /*Links Color*/
 
-
 /* Friends Tab */
 .theme-dark.images-dark.container_fc4f04.themed_fc4f04 {
 	background-color: #E7F0F7;
@@ -208,7 +207,6 @@
 .icon_fc4f04 {
 	color: #4ABDD8;
 }
-
 
 /* Server list */
 .scroller_fea3ef {
@@ -311,10 +309,6 @@
 	background-color: var(--callcolor) !important;
 }
 
-
-
-
-
 /* Channel List */
 .container_ee69e0 {
 	background-color: var(--sidebar) !important;
@@ -376,7 +370,6 @@
 .h1_c46f6a {
 	color: var(--settingsfontcolor);
 }
-
 
 .tabBarItem_bff66b.item_a0.brand_a0.selected_a0 {
 	color: var(--settingsfontcolor);
@@ -448,10 +441,12 @@
 	display: flex;
 	flex-direction: column;
 
-	&.groupStart_d5deea::after {
+	/* Message reply arrow*/
+	&.groupStart_d5deea>.contents_f9f2ca>.markup_f8f345::after,
+	&.isSystemMessage_f9f2ca>.contents_f9f2ca>.markup_f8f345::after {
 		content: "\25BA";
-		display: block;
 		position: absolute;
+		top: 3px;
 		color: var(--messagebubble);
 		border-radius: 5px;
 		font-size: 15px;
@@ -468,6 +463,7 @@
 			max-width: 600px;
 			border-radius: var(--momo-messages-border-radius);
 			background-color: var(--messagebubble);
+			overflow: visible;
 
 			&:empty {
 				background-color: transparent;
@@ -477,11 +473,10 @@
 	}
 
 	.container_b558d0 {
-		background-color: transparent;
-		border: 1px solid var(--messagebubble);
+		background-color: var(--messagebubble);
 		border-radius: var(--momo-messages-border-radius);
 		width: fit-content;
-		padding: 20px 15px;
+		padding: 20px;
 	}
 }
 
@@ -489,18 +484,17 @@
 [data-is-self="false"] .message_d5deea {
 	align-items: start;
 
-	&.groupStart_d5deea::after {
-		transform: rotate(180deg);
-		left: 74px;
-		top: 28px;
-	}
-
 	>.contents_f9f2ca {
 		align-items: start;
 
-		.markup_f8f345.messageContent_f9f2ca {
+		.markup_f8f345 {
 			margin-left: 11px;
 			left: 2px;
+
+			&::after {
+				transform: rotate(180deg);
+				left: -11px;
+			}
 		}
 	}
 
@@ -522,13 +516,6 @@
 		padding-right: var(--custom-message-margin-left-content-cozy) !important;
 	}
 
-	&.groupStart_d5deea::after {
-		transform: rotate(0deg);
-		right: 70px;
-		top: 30px;
-	}
-
-
 	>.contents_f9f2ca {
 		align-items: end;
 
@@ -539,6 +526,10 @@
 
 		.markup_f8f345.messageContent_f9f2ca {
 			right: 9px;
+
+			&::after {
+				right: -11px;
+			}
 		}
 	}
 
@@ -557,6 +548,31 @@
 
 		>div {
 			right: initial;
+		}
+	}
+
+	/* Very hacky way of fixing the reply "glyph" */
+	.repliedMessage_f9f2ca {
+		&::before {
+			display: none;
+		}
+
+		&::after {
+			--spine-width: 2px;
+			content: "";
+			display: block;
+			position: absolute;
+			box-sizing: border-box;
+			top: 45%;
+			right: -36px;
+			width: 33px;
+			height: 12px;
+			bottom: 0;
+			border-color: var(--interactive-muted);
+			border-width: var(--spine-width) 0 0 var(--spine-width);
+			border-style: solid;
+			border-top-left-radius: 6px;
+			transform: scaleX(-100%);
 		}
 	}
 }
