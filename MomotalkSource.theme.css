@@ -71,9 +71,6 @@
 .typing_d7ebeb {
  color:var(--username); 	
 }
-.typingDots_d7ebeb {
- backgcolor:var(--username); 	
-}
 
 /* Custom Background Image */
 .chatContent_a7d72e {
@@ -90,7 +87,7 @@
 
 /* Usernames */
 .username_f9f2ca{
-    color:var(--username); !important; 
+    color:var(--username) !important; 
         font-weight: bold;
         margin-left: 8px;
 
@@ -229,7 +226,7 @@ display:none;
 		background-color: #E7F0F7;
 }
 .username_f3939d{
-	color: #3A4446; !important
+	color: #3A4446 !important;
 }
 
 .scroller_bf550a {
@@ -255,7 +252,7 @@ display:none;
 }
 
 .scroller_e2e187::-webkit-scrollbar-thumb {
-    background-col: #B0B0B0; 
+    background-color: #B0B0B0; 
     border-radius: 8px; 
 }
 
