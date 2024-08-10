@@ -606,9 +606,9 @@ background-color:var(--topbar) !important;
 }
 
 /* move the reply arrow to the right when the user's replying*/
-[data-is-self="true"] .repliedMessage_f9f2ca::before {
+[data-is-self="true"] .repliedMessage_f9f2ca:before {
     right: calc(-1*(.85* var(--avatar-size) + var(--gutter)));
-    left: calc((6.9* var(--avatar-size) + var(--gutter)));
+    left: 101%;
     border-width: var(--spine-width) var(--spine-width) 0 0;
     border-top-left-radius: 0px;
     border-top-right-radius: 6px;
