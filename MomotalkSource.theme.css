@@ -613,3 +613,8 @@ background-color:var(--topbar) !important;
     border-top-left-radius: 0px;
     border-top-right-radius: 6px;
 }
+
+/*Fixes the background in setting not changing*/
+.sidebarRegionScroller_c25c6d {
+    background-color:var(--sidebar) !important;
+}
