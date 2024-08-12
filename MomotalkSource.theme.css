@@ -100,10 +100,21 @@
 	width: 55px;
 }
 
+/* Move Profile Pic */
+[data-is-self="true"] .avatar_f9f2ca{
+    left: unset;
+    right: 10px !important;
+}
+
+/* Move Decoration */
+[data-is-self="true"] .avatarDecoration_f9f2ca{
+    left: unset;
+    right: 4px;
+}
 /* Decoration size */
 .avatarDecoration_f9f2ca {
-	height: 65px;
-	width: 65px;
+	height: 66px;
+	width: 66px;
 }
 
 /* Title Bar */
