@@ -479,10 +479,12 @@
 		align-items: inherit;
 		flex-direction: column;
 		z-index: 1;
+		width: 100%;
+		max-width: 600px;
 
 		.markup_f8f345 {
 			padding: 5px 15px;
-			max-width: 600px;
+			max-width: 100%;
 			border-radius: var(--momo-messages-border-radius);
 			background-color: var(--messagebubble);
 			overflow: visible;
