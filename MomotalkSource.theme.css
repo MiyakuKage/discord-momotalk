@@ -482,7 +482,7 @@
 
 		.markup_f8f345 {
 			padding: 5px 15px;
-			max-width: 600px;
+			max-width: 100%;
 			border-radius: var(--momo-messages-border-radius);
 			background-color: var(--messagebubble);
 			overflow: visible;
@@ -612,10 +612,4 @@
 			transform: scaleX(-100%);
 		}
 	}
-}
-
-[data-is-self="true"] .markup_f8f345.messageContent_f9f2ca {
-	
-	max-width: 250px !important;
-	
 }
