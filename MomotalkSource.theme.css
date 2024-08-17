@@ -479,10 +479,12 @@
 		align-items: inherit;
 		flex-direction: column;
 		z-index: 1;
+		width: 100%;
+		max-width: 600px;
 
 		.markup_f8f345 {
 			padding: 5px 15px;
-			max-width: 600px;
+			max-width: 100%;
 			border-radius: var(--momo-messages-border-radius);
 			background-color: var(--messagebubble);
 			overflow: visible;
@@ -508,6 +510,11 @@
 			.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19 {
 				color: var(--brand-560);
 			}
+		}
+
+		&:has(article.embedWrapper_b558d0 .embedProvider_b0068a>a[href*="youtube"]) {
+			width: 97%;
+			max-width: 432px;
 		}
 	}
 }
@@ -612,10 +619,4 @@
 			transform: scaleX(-100%);
 		}
 	}
-}
-
-[data-is-self="true"] .markup_f8f345.messageContent_f9f2ca {
-	
-	max-width: 250px !important;
-	
 }
