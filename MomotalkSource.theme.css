@@ -511,6 +511,10 @@
 				color: var(--brand-560);
 			}
 		}
+
+		&:has(article.embedWrapper_b558d0 .embedProvider_b0068a>a[href*="youtube"]) {
+			width: 97%;
+		}
 	}
 }
 
