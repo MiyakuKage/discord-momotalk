@@ -89,7 +89,7 @@
 
 /* Usernames */
 .username_f9f2ca {
-	color: var(--username) !important;
+	color: var(--username);
 	font-weight: bold;
 	margin-left: 8px;
 }
