@@ -552,6 +552,7 @@
 
 	>.contents_f9f2ca {
 		margin-right: 9px;
+		max-width: 100%;
 
 		img.avatar_f9f2ca {
 			left: initial;
