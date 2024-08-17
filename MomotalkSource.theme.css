@@ -620,3 +620,9 @@
 		}
 	}
 }
+
+/* Search results */
+.searchResult_ddc613 {
+		background-color: var(--messagebubble) !important;
+		
+}
