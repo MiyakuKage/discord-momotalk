@@ -157,7 +157,7 @@
 
 /* Friends Tab */
 .theme-dark.images-dark.container_fc4f04.themed_fc4f04 {
-	background-color: #E7F0F7;
+	background-color: var(--topbar);
 }
 
 .username_f3939d {
