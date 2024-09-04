@@ -418,6 +418,10 @@
 	color: var(--settingsfontcolor);
 }
 
+.sidebarRegionScroller_c25c6d {
+	background-color: var(--sidebar);
+}
+
 .button_dd4f85.lookOutlined_dd4f85.colorRed_dd4f85.sizeSmall_dd4f85.grow_dd4f85 {
 	/* Your styles here */
 	background-color: #FB94A7;
