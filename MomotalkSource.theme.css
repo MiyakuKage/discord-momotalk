@@ -332,15 +332,22 @@
 /* DM List */
 .scroller_c47fa9 {
 	background-color: var(--sidebar) !important;
+	
+	.selected_f5eb4b {
+		background-color: #68798D !important;
+	}
+
+	.name_ec8679 {
+		font-weight: bold;
+		color:#3F444A;
+	}
+
 }
 
 .searchBar_f0963d {
 	background-color: var(--sidebar) !important;
 }
 
-.selected_f5eb4b {
-	background-color: #68798D !important;
-}
 
 /* Account container */
 .container_b2ca13 {
