@@ -422,6 +422,19 @@
 	background-color: var(--sidebar);
 }
 
+/*Your personal Account information*/
+.background_b69b77 {
+	background-color: var(--sidebar);
+}
+
+.fieldList_b69b77 {
+	background-color: var(--sidebar);
+}
+
+.accountProfileCard_b69b77 {
+	background-color: var(--searchbars);
+}
+
 .button_dd4f85.lookOutlined_dd4f85.colorRed_dd4f85.sizeSmall_dd4f85.grow_dd4f85 {
 	/* Your styles here */
 	background-color: #FB94A7;
