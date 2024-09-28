@@ -686,3 +686,8 @@
 		color: var(--settingsfontcolor);
 	}
 }
+
+/*follow channel update popup?*/
+.wrapper_faf5ab {
+	background-color: var(--senseimessagebubble);
+}
