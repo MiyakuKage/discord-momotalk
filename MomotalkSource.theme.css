@@ -521,6 +521,7 @@
 			max-width: 432px;
 		}
 	}
+	
 }
 
 /* Other Message Container */
@@ -629,4 +630,9 @@
 .searchResult_ddc613 {
 		background-color: var(--messagebubble) !important;
 		
+}
+
+/* App and Commands at the bottom right */
+.app_a01fb1 button {
+	background-color: var(--senseimessagebubble);
 }
