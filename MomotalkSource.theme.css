@@ -636,3 +636,16 @@
 .app_a01fb1 button {
 	background-color: var(--senseimessagebubble);
 }
+
+/*Vencord Spotify Display*/
+#vc-spotify-player {
+	background: var(--momotalkbanner) !important;
+
+	.vc-spotify-artist {
+		color: var(--settingsfontcolor);
+	}
+
+	#vc-spotify-album-title {
+		color: var(--settingsfontcolor);
+	}
+}
