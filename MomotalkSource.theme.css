@@ -344,6 +344,23 @@
 
 }
 
+/* Members List*/
+.members_cbd271 {
+	background-color: var(--sidebar);
+
+	.membersGroup_cbd271 {
+		font-weight: bold;
+	}
+
+	.member_cbd271 {
+		background-color: var(--sidebar);
+	}
+
+	.name_d808b0 {
+		font-weight: bold;
+	}
+}
+
 .searchBar_f0963d {
 	background-color: var(--sidebar) !important;
 }
