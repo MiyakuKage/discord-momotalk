@@ -345,8 +345,12 @@
 }
 
 /* Members List*/
-.members_cbd271 {
+.container_cbd271 {
 	background-color: var(--sidebar);
+}
+
+.members_cbd271 {
+	background-color: inherit;
 
 	.membersGroup_cbd271 {
 		font-weight: bold;
