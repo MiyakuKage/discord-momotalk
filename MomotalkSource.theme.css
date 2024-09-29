@@ -157,7 +157,7 @@
 
 /* Friends Tab */
 .theme-dark.images-dark.container_fc4f04.themed_fc4f04 {
-	background-color: #E7F0F7;
+	background-color: var(--topbar);
 }
 
 .username_f3939d {
@@ -332,15 +332,39 @@
 /* DM List */
 .scroller_c47fa9 {
 	background-color: var(--sidebar) !important;
+
+	.selected_f5eb4b {
+		background-color: #68798D !important;
+	}
+
+	.name_ec8679 {
+		font-weight: bold;
+		/*color:#3F444A;*/
+	}
+
+}
+
+/* Members List*/
+.members_cbd271 {
+	background-color: var(--sidebar);
+
+	.membersGroup_cbd271 {
+		font-weight: bold;
+	}
+
+	.member_cbd271 {
+		background-color: var(--sidebar);
+	}
+
+	.name_d808b0 {
+		font-weight: bold;
+	}
 }
 
 .searchBar_f0963d {
 	background-color: var(--sidebar) !important;
 }
 
-.selected_f5eb4b {
-	background-color: #68798D !important;
-}
 
 /* Account container */
 .container_b2ca13 {
@@ -416,6 +440,24 @@
 
 .title_ed1d57 {
 	color: var(--settingsfontcolor);
+}
+
+/*Settings sidebar*/
+.sidebarRegionScroller_c25c6d {
+	background-color: var(--sidebar);
+}
+
+/*Your personal Account information*/
+.background_b69b77 {
+	background-color: var(--sidebar);
+}
+
+.fieldList_b69b77 {
+	background-color: var(--sidebar);
+}
+
+.accountProfileCard_b69b77 {
+	background-color: var(--searchbars);
 }
 
 .button_dd4f85.lookOutlined_dd4f85.colorRed_dd4f85.sizeSmall_dd4f85.grow_dd4f85 {
@@ -517,6 +559,7 @@
 			max-width: 432px;
 		}
 	}
+	
 }
 
 /* Other Message Container */
@@ -625,4 +668,27 @@
 .searchResult_ddc613 {
 		background-color: var(--messagebubble) !important;
 		
+}
+
+/* App and Commands at the bottom right */
+.button_df39bd {
+	background-color: var(--senseimessagebubble);
+}
+
+/*Vencord Spotify Display*/
+#vc-spotify-player {
+	background: var(--momotalkbanner) !important;
+
+	.vc-spotify-artist {
+		color: var(--settingsfontcolor);
+	}
+
+	#vc-spotify-album-title {
+		color: var(--settingsfontcolor);
+	}
+}
+
+/*follow channel update popup?*/
+.wrapper_faf5ab {
+	background-color: var(--senseimessagebubble);
 }
