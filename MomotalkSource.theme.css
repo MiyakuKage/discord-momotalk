@@ -643,7 +643,8 @@
 	}
 
 	/* Very hacky way of fixing the reply "glyph" */
-	.repliedMessage_f9f2ca {
+	/* YOU SERVED US PROUD BUT ALAS YOU MUST RETIRE REST EASY o7*/
+	/* .repliedMessage_f9f2ca {
 		&::before {
 			display: none;
 		}
@@ -665,7 +666,17 @@
 			border-top-left-radius: 6px;
 			transform: scaleX(-100%);
 		}
+	} */
+	 
+	/* New hacky way of fixing the reply "glyph" */
+	.repliedMessageSpine_f9f2ca {
+		right: calc(-1*(.6* var(--avatar-size) + var(--gutter)));
+		left: 101%;
+		border-width: var(--spine-width) var(--spine-width) 0 0;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 6px;
 	}
+	
 }
 
 /* Search results */
