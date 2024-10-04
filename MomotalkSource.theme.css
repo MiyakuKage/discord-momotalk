@@ -43,7 +43,7 @@
 
 /*replace with colour if you want a colour behind your image */
 #app-mount .tutorialContainer_f9623d .childWrapper_f90abb {
-	background-image: url('https://i.imgur.com/UEiRGq4.png');
+	background-image: url('https://miyakukage.github.io/discord-momotalk/img/home.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -106,15 +106,21 @@
     right: 10px !important;
 }
 
-/* Move Decoration */
+/* Move Self Decoration */
 [data-is-self="true"] .avatarDecoration_f9f2ca{
     left: unset;
     right: 4px;
 }
+/* Move Decoration */
+.avatarDecoration_f9f2ca{
+	right: unset;
+    left: 11px;
+	bottom: unset;
+}
 /* Decoration size */
 .avatarDecoration_f9f2ca {
-	height: 66px;
-	width: 66px;
+	height: 64px;
+	width: 64px;
 }
 
 /* Title Bar */
@@ -134,11 +140,32 @@
 	transform: scale(1.5);
 }
 
+
+/* Invites */
+.wrapper_a71a1c {
+		background-color: var(--momotalkbanner);
+} 
+.guildName_a71a1c{
+			color: var(--messagefontcolor) !important;
+}
+.channelIcon_a71a1c {
+				color: var(--messagefontcolor) !important;
+
+}
+.h5_c46f6a.eyebrow.header_a71a1c  {
+				color: var(--messagefontcolor) !important;
+
+}
+
 /* Watermark*/
 .wordmark_a934d8 svg {
 	display: none;
 }
 
+/* Display */
+.footer_aa1bff {
+	display: none !important;
+}
 .wordmark_a934d8::after {
 	top: -59px;
 	left: 1px;
@@ -147,7 +174,7 @@
 	display: inline-block;
 	width: 150px;
 	height: 150px;
-	background-image: url(https://i.imgur.com/7PHPCpk.png);
+	background-image: url('https://miyakukage.github.io/discord-momotalk/img/logo.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -165,7 +192,7 @@
 }
 
 .scroller_bf550a {
-	background-image: url('https://i.imgur.com/OJgUygB.png');
+	background-image: url('https://miyakukage.github.io/discord-momotalk/img/arona.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -706,4 +733,34 @@
 /*follow channel update popup?*/
 .wrapper_faf5ab {
 	background-color: var(--senseimessagebubble);
+}
+
+/* New Forward Thing */
+.modal_d0585c.root_f9a4c9.small_f9a4c9.fullscreenOnMobile_f9a4c9.rootWithShadow_f9a4c9 {
+	background-color:  var(--sidebar);
+}
+.forwardPreviewWrapper_d0585c {
+	background-color:  var(--sidebar);	
+} 
+
+.flex_dc333f.horizontalReverse_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.footer_f9a4c9.footerWithMessage_d0585c.footerSeparator_f9a4c9 {
+	background-color:  var(--sidebar);	
+} 
+.defaultColor_a595eb.lineClamp1_a595eb.label_d0585c {
+	color: var(--messagefontcolor) !important;
+}
+
+.defaultColor_a595eb.defaultColor_e42ec6 {
+	color: var(--messagefontcolor) !important;
+}
+
+
+.sendWithMessage_d0585c.button_dd4f85.lookFilled_dd4f85.colorBrand_dd4f85.sizeMedium_dd4f85.grow_dd4f85 {
+	color: var(--momotalkbanner) !important;
+		background-color: var(--momotalkbanner) !important;
+}
+
+.checkbox_f6cde8.box_f6cde8.checked_f6cde8 {
+	color: var(--momotalkbanner) !important;
+		background-color: var(--momotalkbanner) !important;
 }
