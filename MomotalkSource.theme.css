@@ -696,7 +696,7 @@
 	} */
 	 
 	/* New hacky way of fixing the reply "glyph" */
-	.repliedMessageSpine_f9f2ca {
+	.repliedMessageClickableSpine_f9f2ca {
 		right: calc(-1*(.6* var(--avatar-size) + var(--gutter)));
 		left: 101%;
 		border-width: var(--spine-width) var(--spine-width) 0 0;
