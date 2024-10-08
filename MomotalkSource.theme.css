@@ -746,13 +746,10 @@
 .flex_dc333f.horizontalReverse_dc333f.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.footer_f9a4c9.footerWithMessage_d0585c.footerSeparator_f9a4c9 {
 	background-color:  var(--sidebar);	
 } 
-.defaultColor_a595eb.lineClamp1_a595eb.label_d0585c {
+.lineClamp1_a595eb.label_d0585c {
 	color: var(--messagefontcolor) !important;
 }
 
-.defaultColor_a595eb.defaultColor_e42ec6 {
-	color: var(--messagefontcolor) !important;
-}
 
 
 .sendWithMessage_d0585c.button_dd4f85.lookFilled_dd4f85.colorBrand_dd4f85.sizeMedium_dd4f85.grow_dd4f85 {
