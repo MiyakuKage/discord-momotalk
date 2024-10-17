@@ -761,3 +761,11 @@
 	color: var(--momotalkbanner) !important;
 		background-color: var(--momotalkbanner) !important;
 }
+
+/*Leave Server Popup*/
+.root_f9a4c9 {
+	background-color: var(--background-primary);
+	.footer_f9a4c9 {
+		background-color: var(--sidebar);
+	}
+}
