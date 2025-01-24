@@ -812,3 +812,8 @@
 .mentioned_d5deea::before {
 	  background-color: rgba(255, 147, 183, 0.8) !important;
 }
+
+/* group names that were white for some reason??? */
+.channelName_f0fccd div, .channelName_f0fccd input {
+	  color: var(--username) !important;
+}
