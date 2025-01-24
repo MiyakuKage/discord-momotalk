@@ -769,3 +769,22 @@
 		background-color: var(--sidebar);
 	}
 }
+
+
+
+
+/* Color Fixes */
+.scrollableContainer_bdf0de {
+	background-color: var(--senseimessagebubble);
+}
+
+/* User Profile thing that no one uses */
+.outer_c69a7b.theme-dark.images-dark.panel_c69a7b {
+		background-color: var(--senseimessagebubble);
+}
+
+/* friend list buttons */
+.actionButton_e01b91 {
+			background-color: var(--senseimessagebubble);
+			color: white;
+}
