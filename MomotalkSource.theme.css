@@ -781,6 +781,10 @@
 /* User Profile thing that no one uses */
 .outer_c69a7b.theme-dark.images-dark.panel_c69a7b {
 		background-color: var(--senseimessagebubble);
+		color: white !important;
+}
+.outer_c69a7b.theme-dark.images-dark.panel_c69a7b div{
+		color: var(--fontcolor);
 }
 
 /* friend list buttons */
