@@ -804,3 +804,11 @@
 .expandedFolderIconWrapper_bc7085{
 					background-color: var(--senseimessagebubble);
 }
+
+/* mentions/reply Color*/
+.mentioned_d5deea {
+	  background-color: rgba(255, 147, 183, 0.5) !important;
+}
+.mentioned_d5deea::before {
+	  background-color: rgba(255, 147, 183, 0.8) !important;
+}
