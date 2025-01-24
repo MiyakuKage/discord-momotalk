@@ -788,3 +788,19 @@
 			background-color: var(--senseimessagebubble);
 			color: white;
 }
+
+/* fuckass discovery button */
+.gradient_d71945 {
+			background-color: var(--sidebar);
+}
+.footer_d71945 {
+			background-color: var(--sidebar);
+}
+
+/* folder inside */
+.expandedFolderBackground_bc7085{
+				background-color: var(--senseimessagebubble);
+}
+.expandedFolderIconWrapper_bc7085{
+					background-color: var(--senseimessagebubble);
+}
