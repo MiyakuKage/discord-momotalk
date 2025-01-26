@@ -17,6 +17,7 @@ Last Updated : 26/01/2025<br>
         <a href="https://github.com/MiyakuKage/discord-momotalk/releases/download/real/Momotalk-DarkMode.theme.css">Download MomoTalk Theme (Dark Mode)</a>
     </center><br>
 ● 4. On Discord, press the "Load Missing Themes" button, and enable it!<br>
-● 4.5 If you want, you can edit the downloaded files to put your own colors, or even a custom background image!
+● 4.5 If you want, you can edit the downloaded files to put your own colors, or even a custom background image!<br>
 # CHARACTERS
-● 5. You can now edit the theme file to add a character to the background of chats. More characters will be added overtime! (Make sure to update to release 2.0 for this to work!)
+● 5. You can now edit the theme file to add a character to the background of chats. More characters will be added overtime! (Make sure to update to release 2.0 for this to work!)<br>
+[Current character list: none ; arona ; mari]
