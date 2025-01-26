@@ -20,17 +20,22 @@
 	--searchbars: #303C51;
 
 	--callcolor: #505C72;
-	--callimage: url('your image url here.png');
 
 	--callbuttons: #303C51;
 	--hangup: #FB90A4;
 
-	--bgimage: url('your image url here.png');
 
 	--settingsfontcolor: #000000;
+	
+/* Change Images Here !!!! */
+	
+	--character: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); /* Change "none.apng" by a character name*/
+	/* Current character list: "arona", "mari" */ 
+
+	--bgimage: url('your image url here.png');
+
+	--callimage: url('your image url here.png');
 }
-
-
 
 
 
@@ -85,6 +90,14 @@
 .chatContent_a7d72e {
 	background-image: var(--bgimage);
 	background-size: cover;
+}
+
+/* Arona in main chat*/
+.chatContent_a7d72e {
+	background-image: var(--character);
+	background-size: 23%;
+	background-repeat: no-repeat;
+	background-position: 10% 120%; 
 }
 
 /* Message font */
@@ -197,10 +210,12 @@
 }
 
 .scroller_bf550a {
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/arona.png');
+	background-image: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng');
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: 25% 240%;
+
+	
 }
 
 .itemCard_f02fcf {
@@ -230,13 +245,15 @@
 }
 
 /* New Messages */
-.newMessagesBar_cf58b5 {
+.divider_d5deea  {
 	background-color: var(--momotalkbanner) !important;
 
 }
 
+
+
 .icon_d8bfb3 {
-	color: #4ABDD8 !important;
+	color: #4ABDD8 !important; 
 }
 
 .title_fc4f04 {
@@ -902,3 +919,5 @@
   top: 0;
   left: 0;
 }
+
+
