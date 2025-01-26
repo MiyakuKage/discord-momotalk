@@ -39,7 +39,10 @@
 .wrapper_c5f96a:hover .childWrapper_f90abb,
 .childWrapper_f90abb {
 	background-color: transparent;
+
 }
+
+
 
 /*replace with colour if you want a colour behind your image */
 #app-mount .tutorialContainer_f9623d .childWrapper_f90abb {
@@ -47,6 +50,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+
 }
 
 .childWrapper_f90abb svg {
@@ -59,6 +63,7 @@
 
 .listItemWrapper_dfb2f8.selected_dfb2f8 {
 	background-color: #66778B !important;
+
 }
 
 /* That annoying hole next to server names */
@@ -790,7 +795,21 @@
 /* friend list buttons */
 .actionButton_e01b91 {
 			background-color: var(--senseimessagebubble);
-			color: white;
+			color: white;	
+}
+
+.itemCard_f02fcf:hover{
+	background-color: var(--sidebar) !important;
+}
+.itemCard_f02fcf.active_ac5d22{
+	background-color: var(--sidebar) !important;
+}
+.scroller_d90b3d.thin_c49869.scrollerBase_c49869{
+	background-color: var(--sidebar);
+}
+
+.body_cd82a7.inset_ac5d22{
+	background-color: transparent;
 }
 
 /* fuckass discovery button */
@@ -799,6 +818,17 @@
 }
 .footer_d71945 {
 			background-color: var(--sidebar);
+}
+.container_aef5fd{
+	background-color: var(--sidebar);
+}
+
+.container_aef5fd:hover{
+	background-color: var(--sidebar);
+}
+.container_aef5fd .defaultColor_a595eb{
+	color: white !important;
+	background-color: var(--sidebar);
 }
 
 /* folder inside */
@@ -820,4 +850,55 @@
 /* group names that were white for some reason??? */
 .channelName_f0fccd div, .channelName_f0fccd input {
 	  color: var(--username) !important;
+}
+
+
+.container_e40c16.fixClipping_c7e9c6{
+	background-color: var(--momotalkbanner);
+}
+
+
+/* funky loading screen */
+.container_e40c16.fixClipping_c7e9c6::after{
+
+	position: absolute;
+	content: "";
+	display: inline-block;
+	width: 200px;
+	height: 2000px;
+	background-image: url('https://miyakukage.github.io/discord-momotalk/img/logobig.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.spinner_e40c16.ready_e40c16{
+	display: none;
+}
+
+.text_e40c16 {
+	margin-top: 300px;
+}
+
+/* Miyu Friends */
+ 
+ 
+#add_friend-tab .image_a3747e {
+  background-image: url('https://miyakukage.github.io/discord-momotalk/img/miyu.png') !important;
+  background-size: cover !important;
+  width: 450px !important;
+  height: 300px !important;
+}
+
+#add_friend-tab .text_a3747e {
+  color: transparent; /* Hide the original text */
+  position: relative; /* Ensure pseudo-elements align properly */
+}
+
+#add_friend-tab .text_a3747e::before {
+  content: "Miyu is waiting on friends. You don't have to though!"; /* Replace with your desired text */
+  color: var(--username);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
