@@ -7,7 +7,7 @@
 <h2>And if you post screenshots of this somewhere, please tag me, I wanna see how you customize it!</h2>
 <hr>
 Last Updated : 26/01/2025<br>
-# HOW TO INSTALL
+<h3> HOW TO INSTALL </h3>
 (● 0. No matter which theme you choose, you have to make sure your Discord is in Dark Mode because of limitations!)<br>
 ● 1. Install the Discord Desktop App, then the Vencord mod for it. (Not compatible with BetterDiscord for now!)<br>
 ● 2. Once on Vencord, go into Settings > Plugins, and enable the "ThemeAttributes" plugin, then restart the app.<br>
@@ -18,6 +18,6 @@ Last Updated : 26/01/2025<br>
     </center><br>
 ● 4. On Discord, press the "Load Missing Themes" button, and enable it!<br>
 ● 4.5 If you want, you can edit the downloaded files to put your own colors, or even a custom background image!<br>
-# CHARACTERS
+<h3> CHARACTERS<br> </h3>
 ● 5. You can now edit the theme file to add a character to the background of chats. More characters will be added overtime! (Make sure to update to release 2.0 for this to work!)<br>
 [Current character list: none ; arona ; mari]
