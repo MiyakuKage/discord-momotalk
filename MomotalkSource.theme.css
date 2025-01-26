@@ -29,9 +29,11 @@
 	
 /* Change Images Here !!!! */
 	
-	--character: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); /* Change "none.apng" by a character name*/
+	--character: url('https://miyakukage.github.io/discord-momotalk/img/chara/none.apng'); /* Change "none.apng" by a character name*/
 	/* Current character list: "arona", "mari" */ 
 
+	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); /* Same here but for the friend list*/
+	
 	--bgimage: url('your image url here.png');
 
 	--callimage: url('your image url here.png');
@@ -210,7 +212,7 @@
 }
 
 .scroller_bf550a {
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng');
+	background-image: var(--characterfriends);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 25% 240%;
