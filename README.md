@@ -6,7 +6,7 @@
 <p>Disclaimer : I am nowhere near a professional coder, if you encounter any issues, please let me know on Twitter @KageMiyaku, or on Reddit u/MiyakuKage.</p>
 <h2>And if you post screenshots of this somewhere, please tag me, I wanna see how you customize it!</h2>
 <hr>
-Last Updated : 24/01/2025
+Last Updated : 26/01/2025<br>
 # HOW TO INSTALL
 (● 0. No matter which theme you choose, you have to make sure your Discord is in Dark Mode because of limitations!)<br>
 ● 1. Install the Discord Desktop App, then the Vencord mod for it. (Not compatible with BetterDiscord for now!)<br>
