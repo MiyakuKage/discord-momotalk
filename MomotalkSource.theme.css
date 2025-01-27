@@ -24,6 +24,7 @@
 	--callbuttons: #303C51;
 	--hangup: #FB90A4;
 
+	--dmlist: #F2F7FB;
 
 	--settingsfontcolor: #000000;
 	
@@ -382,18 +383,25 @@
 
 /* DM List */
 .scroller_c47fa9 {
-	background-color: var(--sidebar) !important;
+	background-color: var(--dmlist) !important;
+	scrollbar-color: transparent transparent;
+	border-right: solid;
+	border-color: #DDDDDD;
 
-	.selected_f5eb4b {
-		background-color: #68798D !important;
-	}
+.selected_f5eb4b {
+background-color: #DBE4EB !important;
+}
 
 	.name_ec8679 {
 		font-weight: bold;
-		/*color:#3F444A;*/
+		color: var(--username)
+	}
+	.activityText_c91bad {
+		color: #62676B
 	}
 
 }
+
 
 /* Members List*/
 .container_cbd271 {
@@ -923,3 +931,42 @@
 }
 
 
+
+
+
+/* NEW messages */
+.newMessagesBar_cf58b5.barBase_cf58b5 {
+background-color: var(--momotalkbanner); !important;
+}
+
+.divider_d5deea.hasContent_d5deea.divider_c2654d.isUnread_c2654d.hasContent_c2654d .content_c2654d{
+	margin-bottom: 18px !important;
+	background-color: transparent;
+}
+
+.group-spacing-16.divider_d5deea.beforeGroup_d5deea,
+.divider_d5deea.divider_c2654d.isUnread_c2654d {
+   border-width: 20px;
+   border-radius: 7px;
+   border-color: #DDE6ED;
+}
+
+.group-spacing-16 .divider_d5deea.beforeGroup_d5deea::before,
+.divider_d5deea.divider_c2654d.isUnread_c2654d::before{
+  content: "Read up to this point."; /* Replace with your desired text */
+  color: var(--username);
+  position: relative;
+  top: -10px;
+  left: 0;
+}
+
+.unreadPill_c2654d.endCap_c2654d {
+	display: none;
+}
+
+
+/* More color fixes, this is getting super messy */
+.replyBar_b11c5e,
+.stackedBars_bdf0de{
+	 background-color: var(--senseimessagebubble) !important;
+}
