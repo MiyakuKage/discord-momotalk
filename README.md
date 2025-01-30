@@ -13,8 +13,8 @@ Last Updated : 30/01/2025<br>
 ● 2. Once on Vencord, go into Settings > Plugins, and enable the "ThemeAttributes" plugin, then restart the app.<br>
 ● 3. Go into Settings > Themes > Open Themes folder, and put one of these files into said folder :<br>
       <center>
-        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/download/real/Momotalk.theme.css">Download MomoTalk Theme (Light Mode)</a> / 
-        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/download/real/Momotalk-DarkMode.theme.css">Download MomoTalk Theme (Dark Mode)</a>
+        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/download/V2.0/Momotalk.theme.css">Download MomoTalk Theme (Light Mode)</a> / 
+        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/download/V2.0/Momotalk-DarkMode.theme.css">Download MomoTalk Theme (Dark Mode)</a>
     </center><br>
 ● 4. On Discord, press the "Load Missing Themes" button, and enable it!<br>
 ● 4.5 If you want, you can edit the downloaded files to put your own colors, or even a custom background image!<br>
@@ -34,3 +34,5 @@ Last Updated : 30/01/2025<br>
        - Arona can now be replaced by any image you want, or predetermined ones<br>
        - You can also have Arona or any character on your main chats! <br>
 	 <br></h4>
+<hr>
+Like what you're seeing? Maybe tell me a kind message on <a href="https://mimiya.nekoweb.org/">my website!</a>
