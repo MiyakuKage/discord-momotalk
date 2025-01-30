@@ -35,4 +35,4 @@ Last Updated : 30/01/2025<br>
        - You can also have Arona or any character on your main chats! <br>
 	 <br></h4>
 <hr>
-Like what you're seeing? Maybe tell me a kind message on <a href="https://mimiya.nekoweb.org/">my website!</a>
+Like what you're seeing? Maybe leave me a kind message on <a href="https://mimiya.nekoweb.org/">my website</a>!
