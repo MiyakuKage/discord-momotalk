@@ -22,8 +22,7 @@ Last Updated : 30/01/2025<br>
 ● 5. You can now edit the theme file to add a character to the background of chats. More characters will be added overtime! (Make sure to update to release 2.0 for this to work!)<br>
 [Current character list: none ; arona ; mari]
 <br><br>
-<font size="+2">Changelog</font>
-<font size="+1">
+<h4>Changelog
       	 <br> 30/01/2025<br>
 	 - Yesterday, Discord pushed an update that broke every single theme. We worked a bunch to fix it, and it shouldn't have any issues anymore! (Thank you all for telling me, and for the kind messages!)
 	 <br>
@@ -33,4 +32,4 @@ Last Updated : 30/01/2025<br>
        - Arona now moves in the friends tab!<br>
        - Arona can now be replaced by any image you want, or predetermined ones<br>
        - You can also have Arona or any character on your main chats! <br>
-	 <br>
+	 <br></h4>
