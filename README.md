@@ -22,6 +22,7 @@ Last Updated : 30/01/2025<br>
 ● 5. You can now edit the theme file to add a character to the background of chats. More characters will be added overtime! (Make sure to update to release 2.0 for this to work!)<br>
 [Current character list: none ; arona ; mari]
 <br><br>
+<hr>
 <h4>Changelog
       	 <br> 30/01/2025<br>
 	 - Yesterday, Discord pushed an update that broke every single theme. We worked a bunch to fix it, and it shouldn't have any issues anymore! (Thank you all for telling me, and for the kind messages!)
