@@ -28,11 +28,12 @@ Last Updated : 30/01/2025<br>
 	 - Yesterday, Discord pushed an update that broke every single theme. We worked a bunch to fix it, and it shouldn't have any issues anymore! (Thank you all for telling me, and for the kind messages!)
 	 <br>
 	 <br> 27/01/2025<br>
-	 - Changed a few colors to be more accurate (Make sure to update your css if you wanna change them!)<br>
-	 - The "new" bar now reads "Read up to this point.", to be more game accurate<br>
-       - Arona now moves in the friends tab!<br>
-       - Arona can now be replaced by any image you want, or predetermined ones<br>
-       - You can also have Arona or any character on your main chats! <br>
+- Changed a few colors to be more accurate (Make sure to update your css if you wanna change them!)<br>
+- The "new" bar now reads "Read up to this point.", to be more game accurate<br>
+- Arona now moves in the friends tab!<br>
+- Arona can now be replaced by any image you want, or predetermined ones<br>
+- You can also have Arona or any character on your main chats! <br>
+- Made the loading screen more MomoTalk like <br>
 	 <br></h4>
 <hr>
 Like what you're seeing? Maybe leave me a kind message on <a href="https://mimiya.nekoweb.org/">my website</a>!
