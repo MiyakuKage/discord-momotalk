@@ -6,7 +6,7 @@
 <p>Disclaimer : I am nowhere near a professional coder, if you encounter any issues, please let me know on Twitter @KageMiyaku, or on Reddit u/MiyakuKage.</p>
 <h2>And if you post screenshots of this somewhere, please tag me, I wanna see how you customize it!</h2>
 <hr>
-Last Updated : 26/01/2025<br>
+Last Updated : 30/01/2025<br>
 <h3> HOW TO INSTALL </h3>
 (● 0. No matter which theme you choose, you have to make sure your Discord is in Dark Mode because of limitations!)<br>
 ● 1. Install the Discord Desktop App, then the Vencord mod for it. (Not compatible with BetterDiscord for now!)<br>
@@ -21,3 +21,16 @@ Last Updated : 26/01/2025<br>
 <h3> CHARACTERS<br> </h3>
 ● 5. You can now edit the theme file to add a character to the background of chats. More characters will be added overtime! (Make sure to update to release 2.0 for this to work!)<br>
 [Current character list: none ; arona ; mari]
+<br><br>
+<font size="+2">Changelog</font>
+<font size="+1">
+      	 <br> 30/01/2025<br>
+	 - Yesterday, Discord pushed an update that broke every single theme. We worked a bunch to fix it, and it shouldn't have any issues anymore! (Thank you all for telling me, and for the kind messages!)
+	 <br>
+	 <br> 27/01/2025<br>
+	 - Changed a few colors to be more accurate (Make sure to update your css if you wanna change them!)<br>
+	 - The "new" bar now reads "Read up to this point.", to be more game accurate<br>
+       - Arona now moves in the friends tab!<br>
+       - Arona can now be replaced by any image you want, or predetermined ones<br>
+       - You can also have Arona or any character on your main chats! <br>
+	 <br>
