@@ -739,9 +739,41 @@ background-color: #DBE4EB !important;
 }
 
 /* Search results */
+
+.public-DraftStyleDefault-block, .public-DraftStyleDefault-ltr{
+
+	.defaultColor__4bd52{
+		color: var(--background-primary);
+	}
+}
+
+.searchHeader_f3b986 {
+	background-color: var(--momotalkbanner);
+
+	.item_b3f026 {
+		color: var(--messagefontcolor);
+	}
+}
+
+.searchResultsWrap_a9e706 {
+	background-color: var(--background-primary);
+}
+
+.channelNameIcon_c68065, .channelNameText_c68065 {
+	color: var(--username);
+}
+
 .searchResult__02a39 {
-		background-color: var(--messagebubble) !important;
+	background-color: var(--messagebubble) !important;
 		
+}
+
+.pageControlContainer_c15210{
+	background-color: var(--momotalkbanner);
+}
+
+.errorMessage_a9e706 {
+	color: var(--username);
 }
 
 /* App and Commands at the bottom right */
@@ -936,7 +968,7 @@ background-color: #DBE4EB !important;
 
 /* NEW messages */
 .newMessagesBar__0f481.barBase__0f481 {
-background-color: var(--momotalkbanner); !important;
+background-color: var(--momotalkbanner) !important;
 }
 
 .divider__5126c.hasContent__5126c.divider__908e2.isUnread__908e2.hasContent__908e2 .content__908e2{
