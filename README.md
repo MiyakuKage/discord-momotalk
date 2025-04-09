@@ -15,7 +15,7 @@ Last Updated : 09/04/2025<br>
 ● 2. Once on Vencord, go into Settings > Plugins, and enable the "ThemeAttributes" plugin, then restart the app.<br>
 ● 3. Go into Settings > Themes > Open Themes folder, and put the theme file into said folder :<br>
       <center>
-        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/download/3.0/Momotalk.theme.css">Download MomoTalk Theme</a> / 
+        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/download/3.0/Momotalk.theme.css">Download the theme HERE!</a> 
     </center><br>
 ● 4. On Discord, press the "Load Missing Themes" button, and enable it!<br>
 ● 5 The theme now supports Dark and Light Mode : Go into Discord's Settings' "Appearance" Tab, and change your Theme from there, our theme should match accordingly!<br>
