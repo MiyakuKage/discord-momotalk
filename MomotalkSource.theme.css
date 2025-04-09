@@ -1,7 +1,7 @@
 /**
   * @name SOURCE - MomoTalk (Visual Refresh)
   * @author yumemiya - elatedcard - kyonakansou
-  * @version 3.2
+  * @version 3.3
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
 */
@@ -12,7 +12,8 @@
 
 /* Change Colors Here!!!! */
 :root {
-
+	--backgroundcolor: #1A1A1E;
+	
 	--momotalkbanner: #E56072;
 
 	--senseimessagebubble: #4A8AC8;
@@ -54,6 +55,8 @@
 
 
 	/*FOR LIGHTMODE*/
+	--backgroundcolorLIGHT: #FFFFFF;
+
 	--momotalkbannerLIGHT: #FB90A4;
 
 	--senseimessagebubbleLIGHT: #4A8AC8;
@@ -110,6 +113,7 @@
 	background-repeat: no-repeat !important;
     background-position: var(--bgcharacterposition) !important;
 	background-attachment: fixed !important;
+	background-color: var(--backgroundcolor) !important;
 }
 
 
@@ -734,6 +738,8 @@ border-color: transparent !important;
 [class*="chatContent_"] {
 	background-image: var(--bgcharacterLIGHT) !important;
     background-position: var(--bgcharacterpositionLIGHT) !important;
+	background-color: var(--backgroundcolorLIGHT) !important;
+
 
 }
 
