@@ -1,7 +1,7 @@
 /**
-  * @name MomoTalk
-  * @author yumemiya
-  * @version 1.0
+  * @name MomoTalk (Visual Refresh)
+  * @author yumemiya - elatedcard - kyonakansou
+  * @version 2.0
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
 */
@@ -9,46 +9,80 @@
 @import url('https://miyakukage.github.io/discord-momotalk/MomotalkSource.theme.css');
 
 
-
 /* Change Colors Here!!!! */
 :root {
-	--background-primary: #FFFFFF;
 
-	--momotalkbanner: #FB90A4;
+	--momotalkbanner: #E56072;
 
 	--senseimessagebubble: #4A8AC8;
+
 	--messagebubble: #4C5B6F;
 
 	--text-link: #CCD3FF;
 
+	--sidebar: #505C72;	
+	--sidebarborder : #3E4E6B;
+	
+	--channeltopbar: #505C72;
+	
 	--messagefontcolor: #FFFFFF;
 
-	--username: #3F444A;
+	--username: #c4c4c4;
 
-	--sidebar: #505C72;
-
-	--topbar: #E7F0F7;
-
-	--searchbars: #303C51;
-
-	--callcolor: #505C72;
-
-	--callbuttons: #303C51;
-	--hangup: #FB90A4;
-
-	--dmlist: #F2F7FB;
-
-	--settingsfontcolor: #000000;
+	--serverlist: #505C72;
 	
-/* Change Images Here !!!! */
-	
-	--character: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /* Change "none.apng" by a character name*/
-	/* Check out the up to date character list on the GitHub README */ 
+	--newmessages: #DDE6ED;/* this is the read up to this point thingy*/
 
-	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); /* Same here but for the friend list*/
+	--newtextcolor: #3F444A;
 	
+	--mention : rgba(255, 147, 183, 0.5); 
+	--mentionbar : rgba(255, 147, 183, 0.8); 
+	
+	--hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(106%) contrast(105%);
+
+	/* Change Images Here !!!! */
+	
+	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); /* Same here but for the friend list*/
+
 	--bgimage: url('your image url here.png');
 
 	--callimage: url('your image url here.png');
-}
 
+
+
+	/*FOR LIGHTMODE*/
+	--momotalkbannerLIGHT: #FB90A4;
+
+	--senseimessagebubbleLIGHT: #4A8AC8;
+
+	--messagebubbleLIGHT: #4C5B6F;
+
+	--text-linkLIGHT: #CCD3FF;
+
+	--sidebarLIGHT: #F2F7F8;
+	
+	--sidebarborderLIGHT : #DFE2E1;
+	
+	--channeltopbarLIGHT: #E7F0F7;
+
+	--messagefontcolorLIGHT: #FFFFFF;
+
+	--usernameLIGHT: #373737;
+
+	--serverlistLIGHT: #505C72;
+	
+	--newmessagesLIGHT: #DDE6ED;/* this is the read up to this point thingy*/
+
+	--newtextcolorLIGHT: #3F444A;
+
+	--hovericoncolorLIGHT:   ;
+	
+
+	/* Change Images Here !!!! */
+
+	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); /* Same here but for the friend list*/
+	
+	--bgimageLIGHT: url('your image url here.png');
+
+	--callimageLIGHT: url('your image url here.png');
+}
