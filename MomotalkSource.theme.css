@@ -1,7 +1,7 @@
 /**
   * @name SOURCE - MomoTalk (Visual Refresh)
   * @author yumemiya - elatedcard - kyonakansou
-  * @version 3.0
+  * @version 3.2
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
 */
@@ -19,10 +19,9 @@
 
 	--messagebubble: #4C5B6F;
 
-	--text-link: #CCD3FF;
+	--text-link: #A3BAFF;
 
 	--sidebar: #505C72;	
-	
 	--sidebarborder : #3E4E6B;
 	
 	--channeltopbar: #505C72;
@@ -30,6 +29,7 @@
 	--messagefontcolor: #FFFFFF;
 
 	--username: #c4c4c4;
+	--usernameoutline: #323339;
 
 	--serverlist: #505C72;
 	
@@ -43,8 +43,9 @@
 	--hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(106%) contrast(105%);
 
 	/* Change Images Here !!!! */
-	
-	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); /* Same here but for the friend list*/
+	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/misaka.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+	--bgcharacterposition: bottom 50px right 1100px;
+	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); 
 
 	--bgimage: url('your image url here.png');
 
@@ -59,7 +60,7 @@
 
 	--messagebubbleLIGHT: #4C5B6F;
 
-	--text-linkLIGHT: #CCD3FF;
+	--text-linkLIGHT: #A3BAFF;
 
 	--sidebarLIGHT: #F2F7F8;
 	
@@ -70,6 +71,7 @@
 	--messagefontcolorLIGHT: #FFFFFF;
 
 	--usernameLIGHT: #373737;
+	--usernameoutlineLIGHT: #FFFFFF;
 
 	--serverlistLIGHT: #505C72;
 	
@@ -81,8 +83,9 @@
 	
 
 	/* Change Images Here !!!! */
-
-	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); /* Same here but for the friend list*/
+	--bgcharacterLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+	--bgcharacterpositionLIGHT: bottom 50px right 1100px;
+	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); 
 	
 	--bgimageLIGHT: url('your image url here.png');
 
@@ -100,6 +103,14 @@
 	background-attachment: fixed;
 }
 
+/* Arona in main chat*/
+[class*="chatContent_"] {
+	background-image: var(--bgcharacter) !important;
+	background-size: auto 80% !important; /* 50% width, auto height */
+	background-repeat: no-repeat !important;
+    background-position: var(--bgcharacterposition) !important;
+	background-attachment: fixed !important;
+}
 
 
 /* Colors */
@@ -114,7 +125,7 @@
 	color: var(--messagefontcolor);
 
 }
-.scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
+.theme-dark.scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
 	background-color: rgb(35, 67, 84) !important;
 	color: rgb(219, 219, 219) !important
 }
@@ -232,7 +243,9 @@
 	color: var(--username);
 	font-weight: bold !important;
 	margin-left: 8px;
+	text-shadow: 1px 2px 2px var(--usernameoutline), -1px -2px 2px var(--usernameoutline);
 }
+
 
 /* DM List */
 .membersWrap_c8ffbb {
@@ -554,11 +567,9 @@ background-color: var(--momotalkbanner) !important;
 } */
 
 /* Channel List, heritaged from previous version */
-.theme-dark
 .container__2637a {
 	background-color: var(--sidebar) ;
 }
-
 .containerDefault_c69b6d.selected_c69b6d.link__2ea32 {
 	background-color: #68798D ;
 }
@@ -673,13 +684,40 @@ border-color: transparent !important;
 	  background-color: var(--mention) !important;
 }
 [class*="mentioned_"]::before {
-	  background-color: var(--mentionbar) !important;
+	  background-color: var(--mentionbar); !important;
 }
 
-/*attachment background*/
-.channelBottomBarArea_f75fb0
-.channelAttachmentArea_b77158 {
-	background-color: var(--senseimessagebubble);
+
+/* Links colors */
+.messageContent_c19a55 .anchor_edefb8.anchorUnderlineOnHover_edefb8{
+	color: var(--text-link);
+}
+
+
+/* funky loading screen */
+.container_a2f514.fixClipping_efbae7::after{
+
+	position: absolute;
+	content: "";
+	display: inline-block;
+	width: 200px;
+	height: 2000px;
+	background-image: url('https://miyakukage.github.io/discord-momotalk/img/logobig.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container_a2f514{
+	background-color: var(--momotalkbanner) !important;
+}
+
+.spinner_a2f514.ready_a2f514{
+	display: none;
+}
+
+.text_a2f514 {
+	margin-top: 300px;
 }
 
 /* ---------------- LIGHT MODE ---------------- */
@@ -692,6 +730,12 @@ border-color: transparent !important;
 	background-image: var(--characterfriendsLIGHT);	
 }
 
+/* Arona in main chat*/
+[class*="chatContent_"] {
+	background-image: var(--bgcharacterLIGHT) !important;
+    background-position: var(--bgcharacterpositionLIGHT) !important;
+
+}
 
 
 /* Colors */
@@ -750,7 +794,9 @@ border-color: transparent !important;
 /* Usernames */
 .username_c19a55 {
 	color: var(--usernameLIGHT);
+	text-shadow: 1px 2px 2px var(--usernameoutlineLIGHT), -1px -2px 2px var(--usernameoutlineLIGHT);
 }
+
 
 /* NEW messages */
 .newMessagesBar__0f481.barBase__0f481 {
@@ -771,7 +817,11 @@ background-color: var(--momotalkbannerLIGHT) !important;
 
 .scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
 	background-color: #6A6A84 !important;
-	color: rgb(219, 219, 219) !important
+	color: white !important;
+}
+
+.textContainer__4d95d.hljs {
+	color: white !important;
 }
 
 /* BIG TEXT */
@@ -893,6 +943,7 @@ background-color: var(--momotalkbannerLIGHT) !important;
 	background-position: center;
 	background-size: 400px
 }
+
 	
 /*code file preview*/
 .mosaicItem__6c706
@@ -906,4 +957,17 @@ background-color: var(--momotalkbannerLIGHT) !important;
 	background-color: #FFFFFF;
 }
 
+/* Links colors */
+.messageContent_c19a55 .anchor_edefb8.anchorUnderlineOnHover_edefb8{
+	color: var(--text-linkLIGHT);
 }
+
+/* funky loading screen */
+.container_a2f514{
+	background-color: var(--momotalkbannerLIGHT) !important;
+}
+
+
+
+
+} /* LIGHTMODE END */

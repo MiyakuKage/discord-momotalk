@@ -1,12 +1,14 @@
 /**
   * @name MomoTalk (Visual Refresh)
   * @author yumemiya - elatedcard - kyonakansou
-  * @version 3.0
+  * @version 3.2
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
 */
 
-@import url('https://miyakukage.github.io/discord-momotalk/MomotalkSource.theme.css');
+
+
+
 
 
 /* Change Colors Here!!!! */
@@ -18,7 +20,7 @@
 
 	--messagebubble: #4C5B6F;
 
-	--text-link: #CCD3FF;
+	--text-link: #A3BAFF;
 
 	--sidebar: #505C72;	
 	--sidebarborder : #3E4E6B;
@@ -28,6 +30,7 @@
 	--messagefontcolor: #FFFFFF;
 
 	--username: #c4c4c4;
+	--usernameoutline: #323339;
 
 	--serverlist: #505C72;
 	
@@ -41,8 +44,9 @@
 	--hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(106%) contrast(105%);
 
 	/* Change Images Here !!!! */
-	
-	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); /* Same here but for the friend list*/
+	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/none.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+	--bgcharacterposition: bottom 50px right 1100px;
+	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/none.apng'); 
 
 	--bgimage: url('your image url here.png');
 
@@ -57,7 +61,7 @@
 
 	--messagebubbleLIGHT: #4C5B6F;
 
-	--text-linkLIGHT: #CCD3FF;
+	--text-linkLIGHT: #A3BAFF;
 
 	--sidebarLIGHT: #F2F7F8;
 	
@@ -68,6 +72,7 @@
 	--messagefontcolorLIGHT: #FFFFFF;
 
 	--usernameLIGHT: #373737;
+	--usernameoutlineLIGHT: #FFFFFF;
 
 	--serverlistLIGHT: #505C72;
 	
@@ -79,10 +84,12 @@
 	
 
 	/* Change Images Here !!!! */
-
-	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); /* Same here but for the friend list*/
+	--bgcharacterLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+	--bgcharacterpositionLIGHT: bottom 50px right 1100px;
+	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); 
 	
 	--bgimageLIGHT: url('your image url here.png');
 
 	--callimageLIGHT: url('your image url here.png');
 }
+
