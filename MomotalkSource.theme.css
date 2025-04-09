@@ -65,9 +65,9 @@
 
 	--text-linkLIGHT: #A3BAFF;
 
-	--sidebarLIGHT: #F2F7F8;
+	--LIGHT: #F2F7F8;
 	
-	--sidebarborderLIGHT : #DFE2E1;
+	--borderLIGHT : #DFE2E1;
 	
 	--channeltopbarLIGHT: #E7F0F7;
 
@@ -509,7 +509,7 @@ background-color: var(--momotalkbanner) !important;
 }
 
 /* bye bye to the little hole by the server list*/
-.sidebar_c48ade {
+._c48ade {
 	border-radius: 0 !important;
 }
 
@@ -522,7 +522,7 @@ background-color: var(--momotalkbanner) !important;
 }
 
 /* a very thin strip of color at the bottom */
-.visual-refresh .sidebar_c48ade:after {
+.visual-refresh ._c48ade:after {
 	background-color: var(--momotalkbanner);
 	right: 0;
 
@@ -553,7 +553,7 @@ background-color: var(--momotalkbanner) !important;
 	filter: var(--hovericoncolor)
 }
 
-/*sidebar little gap fix*/
+/* little gap fix*/
 .sidebarList_c48ade {
     background-color: var(--sidebar);
 }
@@ -571,6 +571,7 @@ background-color: var(--momotalkbanner) !important;
 } */
 
 /* Channel List, heritaged from previous version */
+.theme-dark
 .container__2637a {
 	background-color: var(--sidebar) ;
 }
