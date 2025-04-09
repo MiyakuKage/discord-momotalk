@@ -22,6 +22,7 @@
 	--text-link: #CCD3FF;
 
 	--sidebar: #505C72;	
+	
 	--sidebarborder : #3E4E6B;
 	
 	--channeltopbar: #505C72;
@@ -553,9 +554,11 @@ background-color: var(--momotalkbanner) !important;
 } */
 
 /* Channel List, heritaged from previous version */
+.theme-dark
 .container__2637a {
 	background-color: var(--sidebar) ;
 }
+
 .containerDefault_c69b6d.selected_c69b6d.link__2ea32 {
 	background-color: #68798D ;
 }
@@ -670,9 +673,14 @@ border-color: transparent !important;
 	  background-color: var(--mention) !important;
 }
 [class*="mentioned_"]::before {
-	  background-color: var(--mentionbar); !important;
+	  background-color: var(--mentionbar) !important;
 }
 
+/*attachment background*/
+.channelBottomBarArea_f75fb0
+.channelAttachmentArea_b77158 {
+	background-color: var(--senseimessagebubble);
+}
 
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
@@ -884,6 +892,18 @@ background-color: var(--momotalkbannerLIGHT) !important;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 400px
+}
+	
+/*code file preview*/
+.mosaicItem__6c706
+.textContainer__4d95d
+.scrollbarGhostHairline__506b3 {
+	background-color: #8aabd2 !important;
+}
+
+/*little buttons on server selection*/
+.item__58105 {
+	background-color: #FFFFFF;
 }
 
 }
