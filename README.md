@@ -20,9 +20,13 @@ Last Updated : 09/04/2025<br>
 ● 4. On Discord, press the "Load Missing Themes" button, and enable it!<br>
 ● 5 The theme now supports Dark and Light Mode : Go into Discord's Settings' "Appearance" Tab, and change your Theme from there, our theme should match accordingly!<br>
 ● 5.5 If you want, you can edit the downloaded files to put your own colors!<br>
+● 5.6 You can even change the background character in the file! ("none" by default) current list:<br>
+	- arona, plana, mari, misaka
 <br><br>
 <hr>
-<h4>Changelog
+<h4>Changelog :</h4>
+      	 <br> 09/04/2025 (again)<br>
+	- Added a thing to have your favorite character in the background! (More info above)
       	 <br> 09/04/2025<br>
 	 - Wouldn't you know it, Discord's Visual Refresh Update broke EVERYTHING again. We've been hard at work fixing it, and a stable version was just released! To access it fully, download the new CSS of version 3.0.
 	 <br>
