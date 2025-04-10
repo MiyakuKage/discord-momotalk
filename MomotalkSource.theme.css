@@ -117,6 +117,26 @@
 }
 
 
+/* Wumpus exterminator */
+.addFriendWumpusWrapper__72ba7 img {
+	visibility: hidden;
+}
+
+.addFriendWumpusWrapper__72ba7::after {
+	content: "";
+	position: absolute;
+	bottom: -300%;
+	left: 90%;
+	width: 800%;
+	height: 800%;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-image: url('https://miyakukage.github.io/discord-momotalk/img/tinyarona.png');
+	background-size: cover;
+	pointer-events: none;
+}
+
+
 /* Colors */
 
 [class*="themedBackground_"]{ /* Typing area */
