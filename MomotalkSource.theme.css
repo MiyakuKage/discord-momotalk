@@ -45,7 +45,7 @@
 
 	/* Change Images Here !!!! */
 	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/misaka.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	--bgcharacterposition: bottom 50px right 1100px;
+	--bgcharacterPos: bottom 10% left 20%;
 	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); 
 
 	--bgimage: url('your image url here.png');
@@ -87,7 +87,7 @@
 
 	/* Change Images Here !!!! */
 	--bgcharacterLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	--bgcharacterpositionLIGHT: bottom 50px right 1100px;
+	--bgcharacterPosLIGHT: bottom 10% left 20%;
 	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); 
 	
 	--bgimageLIGHT: url('your image url here.png');
@@ -111,7 +111,7 @@
 	background-image: var(--bgcharacter) !important;
 	background-size: auto 80% !important; /* 50% width, auto height */
 	background-repeat: no-repeat !important;
-    background-position: var(--bgcharacterposition) !important;
+    background-position: var(--bgcharacterPos) !important;
 	background-attachment: fixed !important;
 	background-color: var(--backgroundcolor) !important;
 }
@@ -522,7 +522,7 @@ background-color: var(--momotalkbanner) !important;
 }
 
 /* a very thin strip of color at the bottom */
-.visual-refresh ._c48ade:after {
+.visual-refresh .sidebar_c48ade:after {
 	background-color: var(--momotalkbanner);
 	right: 0;
 
@@ -725,6 +725,7 @@ border-color: transparent !important;
 	margin-top: 300px;
 }
 
+
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
 
@@ -738,7 +739,7 @@ border-color: transparent !important;
 /* Arona in main chat*/
 [class*="chatContent_"] {
 	background-image: var(--bgcharacterLIGHT) !important;
-    background-position: var(--bgcharacterpositionLIGHT) !important;
+    background-position: var(--bgcharacterPosLIGHT) !important;
 	background-color: var(--backgroundcolorLIGHT) !important;
 
 
