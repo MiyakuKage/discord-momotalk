@@ -21,7 +21,7 @@ Last Updated : 09/04/2025<br>
 ● 5 The theme now supports Dark and Light Mode : Go into Discord's Settings' "Appearance" Tab, and change your Theme from there, our theme should match accordingly!<br>
 ● 5.5 If you want, you can edit the downloaded files to put your own colors!<br>
 ● 5.6 You can even change the background character in the file! ("none" by default) current list:<br>
-	- arona, plana, mari, misaka, mika, serika, yuuka - tsumugi, jtfmob
+	- arona, plana, mari, misaka, mika, serika, yuuka, kisaki - tsumugi, jtfmob
  [If you want me to add your favorite character, send me a message!]
 <br><br>
 <hr>
