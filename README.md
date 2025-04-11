@@ -1,7 +1,7 @@
 <h1 align="center">MomoTalk - Discord Theme</span></h1>
 <h3 align="center">Finally, become Sensei in real life by customizing your Discord to look like the app from the Blue Archive game!</h3>
 
-<img align="center" src="https://miyakukage.github.io/discord-momotalk/misc/light.png">
+<img align="center" src="https://miyakukage.github.io/discord-momotalk/misc/refresh.png">
 
 <p>Disclaimer : I am nowhere near a professional coder, if you encounter any issues, please let me know on Twitter @KageMiyaku, or on Reddit u/MiyakuKage.</p>
 <p>Disclaimer 2 : This is an old screenshot, things might look different when you download it. Blame Discord for changing how everything works every 2 weeks lol</p>
@@ -26,6 +26,10 @@ Last Updated : 09/04/2025<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 11/04/2025 <br>
+	- Changing background and call images actually works now
+	- New characters added
+ 	- Updated the README screenshot
       	 <br> 09/04/2025 (again)<br>
 	- Added a thing to have your favorite character in the background! (More info above)
  	- Fixed a few color issues, restored the custom Loading Screen
