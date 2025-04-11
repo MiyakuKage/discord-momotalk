@@ -1,7 +1,7 @@
 /**
   * @name SOURCE - MomoTalk (Visual Refresh)
   * @author yumemiya - elatedcard - kyonakansou
-  * @version 3.3
+  * @version 3.2
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
 */
@@ -12,8 +12,7 @@
 
 /* Change Colors Here!!!! */
 :root {
-	--backgroundcolor: #1A1A1E;
-	
+
 	--momotalkbanner: #E56072;
 
 	--senseimessagebubble: #4A8AC8;
@@ -45,7 +44,9 @@
 
 	/* Change Images Here !!!! */
 	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/misaka.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	--bgcharacterposition: bottom 10% left 20%;
+	
+	--bgcharacterposition: bottom 10% left 30%;
+	
 	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); 
 
 	--bgimage: url('your image url here.png');
@@ -55,8 +56,6 @@
 
 
 	/*FOR LIGHTMODE*/
-	--backgroundcolorLIGHT: #FFFFFF;
-
 	--momotalkbannerLIGHT: #FB90A4;
 
 	--senseimessagebubbleLIGHT: #4A8AC8;
@@ -65,9 +64,9 @@
 
 	--text-linkLIGHT: #A3BAFF;
 
-	--LIGHT: #F2F7F8;
+	--sidebarLIGHT: #F2F7F8;
 	
-	--borderLIGHT : #DFE2E1;
+	--sidebarborderLIGHT : #DFE2E1;
 	
 	--channeltopbarLIGHT: #E7F0F7;
 
@@ -87,7 +86,9 @@
 
 	/* Change Images Here !!!! */
 	--bgcharacterLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	--bgcharacterpositionLIGHT: bottom 10% left 20%;
+	
+	--bgcharacterpositionLIGHT: bottom 10% left 30%;
+	
 	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); 
 	
 	--bgimageLIGHT: url('your image url here.png');
@@ -106,34 +107,22 @@
 	background-attachment: fixed;
 }
 
-/* Arona in main chat*/
+
+/* Arona in main chat AND background*/
 [class*="chatContent_"] {
-	background-image: var(--bgcharacter) !important;
-	background-size: auto 80% !important; /* 50% width, auto height */
-	background-repeat: no-repeat !important;
-    background-position: var(--bgcharacterposition) !important;
-	background-attachment: fixed !important;
-	background-color: var(--backgroundcolor) !important;
+	background-image: var(--bgcharacter), var(--bgimage) !important;
+	background-size: auto 80%, cover !important;
+	background-repeat: no-repeat, no-repeat !important;
+	background-position: var(--bgcharacterposition), center center !important;
+	background-attachment: fixed, fixed !important;
 }
 
 
-/* Wumpus exterminator */
-.addFriendWumpusWrapper__72ba7 img {
-	visibility: hidden;
-}
-
-.addFriendWumpusWrapper__72ba7::after {
-	content: "";
-	position: absolute;
-	bottom: -300%;
-	left: 90%;
-	width: 800%;
-	height: 800%;
+.voiceCallWrapper_a21736 {
+	background-image: var(--callimage) !important;
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
-	background-image: url('https://miyakukage.github.io/discord-momotalk/img/tinyarona.png');
-	background-size: cover;
-	pointer-events: none;
+	background-attachment: fixed !important;
 }
 
 
@@ -529,7 +518,7 @@ background-color: var(--momotalkbanner) !important;
 }
 
 /* bye bye to the little hole by the server list*/
-._c48ade {
+.sidebar_c48ade {
 	border-radius: 0 !important;
 }
 
@@ -573,7 +562,7 @@ background-color: var(--momotalkbanner) !important;
 	filter: var(--hovericoncolor)
 }
 
-/* little gap fix*/
+/*sidebar little gap fix*/
 .sidebarList_c48ade {
     background-color: var(--sidebar);
 }
@@ -591,7 +580,6 @@ background-color: var(--momotalkbanner) !important;
 } */
 
 /* Channel List, heritaged from previous version */
-.theme-dark
 .container__2637a {
 	background-color: var(--sidebar) ;
 }
@@ -709,7 +697,7 @@ border-color: transparent !important;
 	  background-color: var(--mention) !important;
 }
 [class*="mentioned_"]::before {
-	  background-color: var(--mentionbar); !important;
+	  background-color: var(--mentionbar) !important;
 }
 
 
@@ -746,6 +734,17 @@ border-color: transparent !important;
 }
 
 
+/*userbar*/
+.peopleList__5ec2f.auto__99f8c.scrollerBase__99f8c
+.content__99f8c
+.peopleListItem_cc6179 {
+	background-image: url('https://raw.githubusercontent.com/MiyakuKage/discord-momotalk/refs/heads/testing-features-and-assets/img/img-dev/profile-bg2-inverted.png');
+	background-position: right;
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
 
@@ -756,15 +755,21 @@ border-color: transparent !important;
 	background-image: var(--characterfriendsLIGHT);	
 }
 
-/* Arona in main chat*/
+/* Arona in main chat AND background*/
 [class*="chatContent_"] {
-	background-image: var(--bgcharacterLIGHT) !important;
-    background-position: var(--bgcharacterpositionLIGHT) !important;
-	background-color: var(--backgroundcolorLIGHT) !important;
-
-
+	background-image: var(--bgcharacterLIGHT), var(--bgimageLIGHT) !important;
+	background-size: auto 80%, cover !important;
+	background-repeat: no-repeat, no-repeat !important;
+	background-position: var(--bgcharacterpositionLIGHT), center center !important;
+	background-attachment: fixed, fixed !important;
 }
 
+.voiceCallWrapper_a21736 {
+	background-image: var(--callimageLIGHT) !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+}
 
 /* Colors */
 .themedBackground__74017{ /* Typing area */
