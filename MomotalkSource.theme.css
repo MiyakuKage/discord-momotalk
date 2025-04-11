@@ -45,7 +45,7 @@
 	/* Change Images Here !!!! */
 	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/misaka.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
 	
-	--bgcharacterposition: bottom 10% left 20%;
+	--bgcharacterposition: bottom 10% left 30%;
 	
 	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); 
 
@@ -87,7 +87,7 @@
 	/* Change Images Here !!!! */
 	--bgcharacterLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
 	
-	--bgcharacterpositionLIGHT: bottom 10% left 20%;
+	--bgcharacterpositionLIGHT: bottom 10% left 30%;
 	
 	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); 
 	
@@ -107,12 +107,21 @@
 	background-attachment: fixed;
 }
 
-/* Arona in main chat*/
+
+/* Arona in main chat AND background*/
 [class*="chatContent_"] {
-	background-image: var(--bgcharacter) !important;
-	background-size: auto 80% !important; /* 50% width, auto height */
+	background-image: var(--bgcharacter), var(--bgimage) !important;
+	background-size: auto 80%, cover !important;
+	background-repeat: no-repeat, no-repeat !important;
+	background-position: var(--bgcharacterposition), center center !important;
+	background-attachment: fixed, fixed !important;
+}
+
+
+.voiceCallWrapper_a21736 {
+	background-image: var(--callimage) !important;
+	background-size: contain !important;
 	background-repeat: no-repeat !important;
-    	background-position: var(--bgcharacterPos) !important;
 	background-attachment: fixed !important;
 }
 
@@ -746,13 +755,21 @@ border-color: transparent !important;
 	background-image: var(--characterfriendsLIGHT);	
 }
 
-/* Arona in main chat*/
+/* Arona in main chat AND background*/
 [class*="chatContent_"] {
-	background-image: var(--bgcharacterLIGHT) !important;
-    	background-position: var(--bgcharacterPosLIGHT) !important;
-
+	background-image: var(--bgcharacterLIGHT), var(--bgimageLIGHT) !important;
+	background-size: auto 80%, cover !important;
+	background-repeat: no-repeat, no-repeat !important;
+	background-position: var(--bgcharacterpositionLIGHT), center center !important;
+	background-attachment: fixed, fixed !important;
 }
 
+.voiceCallWrapper_a21736 {
+	background-image: var(--callimageLIGHT) !important;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed !important;
+}
 
 /* Colors */
 .themedBackground__74017{ /* Typing area */
