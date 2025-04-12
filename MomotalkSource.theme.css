@@ -748,6 +748,9 @@ border-color: transparent !important;
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
 
+	.messageGroupWrapper__45690{ /* FIX FOR PINS */
+	background-color:  var(--messagebubbleLIGHT) !important;
+}
 
 /* Arona in friends */
 
