@@ -3,7 +3,7 @@
 
 <img align="center" src="https://miyakukage.github.io/discord-momotalk/misc/refresh.png">
 
-<p>Disclaimer : I am nowhere near a professional coder, if you encounter any issues, please let me know on Twitter @KageMiyaku, or on Reddit u/MiyakuKage.</p>
+<p>Disclaimer : I am nowhere near a professional coder, if you encounter any issues, please let me know on Discord yumemiya, or on Reddit u/MiyakuKage.</p>
 <p>Disclaimer 2 : This is an old screenshot, things might look different when you download it. Blame Discord for changing how everything works every 2 weeks lol</p>
 
 <h2>And if you post screenshots of this somewhere, please tag me, I wanna see how you customize it!</h2>
