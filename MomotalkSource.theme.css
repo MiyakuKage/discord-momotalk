@@ -43,7 +43,7 @@
 	--hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(106%) contrast(105%);
 
 	/* Change Images Here !!!! */
-	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/misaka.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
 	
 	--bgcharacterposition: bottom 10% left 30%;
 	
@@ -230,7 +230,7 @@
 
 
 
-.base_c48ade:has(.privateChannels__35e86) .title__85643 {
+.base_c48ade:has(.privateChannels__35e86) .title_bb0d86 {
 	display: none;
 
 }
@@ -480,8 +480,8 @@
 }
 /* Decoration size */
 .avatarDecoration_c19a55 {
-	height: 64px;
-	width: 64px;
+	height: 59px;
+	width: 59px;
 }
 
 /* Workaround for avatar size*/
@@ -751,15 +751,18 @@ border-color: transparent !important;
 }
 
 
-/*userbar*/
-.peopleList__5ec2f.auto__99f8c.scrollerBase__99f8c
-.content__99f8c
-.peopleListItem_cc6179 {
-	background-image: url('https://raw.githubusercontent.com/MiyakuKage/discord-momotalk/refs/heads/testing-features-and-assets/img/img-dev/profile-bg2-inverted.png');
-	background-position: right;
-	background-position: 100%;
-	background-repeat: no-repeat;
-	background-size: 50%;
+/*userbar funny triangles*/
+.peopleList__5ec2f .peopleListItem_cc6179,
+.content__99f8c .peopleListItem_cc6179 {
+	background-image: url('https://raw.githubusercontent.com/MiyakuKage/discord-momotalk/refs/heads/testing-features-and-assets/img/img-dev/profile-bg2-inverted.png') !important;
+	background-position: right !important;
+	background-repeat: no-repeat !important;
+	background-size: 50% !important;
+}
+
+
+.actions_fc004c {
+	margin-right: 1% !important;
 }
 
 /* ---------------- LIGHT MODE ---------------- */
@@ -799,7 +802,7 @@ border-color: transparent !important;
 	color: var(--messagefontcolorLIGHT);
 }
 .placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017{
-	color: var(--messagefontcolorLIGHT);
+	color: white;
 
 }
 .panels_c48ade { /* User Thing */
