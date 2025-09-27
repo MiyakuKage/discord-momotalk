@@ -26,6 +26,10 @@ Last Updated : 09/04/2025<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 27/09/2025 <br>
+	- Fixed colors that discord broke AGAIN
+	- Fixed Decorations not scaling properly in message search
+	- Added something in the appearance tab
       	 <br> 11/04/2025 <br>
 	- Changing background and call images actually works now
 	- New characters added
