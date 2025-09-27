@@ -106,6 +106,25 @@
 	background-position: bottom center;
 	background-attachment: fixed;
 }
+.preview__3e443 {
+  position: relative;
+  display: block;
+}
+
+/* Hide everything inside */
+.preview__3e443 > * {
+  display: none !important;
+}
+
+/* Add your replacement image */
+.preview__3e443::before {
+  content: "";
+  display: block;
+  width: 100%;   /* set your size */
+  height: 100%;
+  background: url('https://miyakukage.github.io/discord-momotalk/img/kohawarn.png') no-repeat center center;
+  background-size: contain; /* or cover */
+}
 
 
 /* Arona in main chat AND background*/
@@ -480,8 +499,14 @@
 }
 /* Decoration size */
 .avatarDecoration_c19a55 {
-	height: 59px;
-	width: 59px;
+  height: 59px;
+  width: 59px;
+}
+
+/* Cancel inside .searchResultsWrap_a9e706 */
+.searchResultsWrap_a9e706 .avatarDecoration_c19a55 {
+  height: 50px;
+  width: 50px;
 }
 
 /* Workaround for avatar size*/
@@ -628,7 +653,7 @@ background-color: var(--momotalkbanner) !important;
 }
 
 /* DM list*/
-.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c {
+.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2{
 	background-color: var(--sidebar);
 }
  
@@ -934,7 +959,7 @@ background-color: var(--momotalkbannerLIGHT) !important;
 }
 
 /* DM list*/
-.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c {
+.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 {
 	background-color: var(--sidebarLIGHT);
 	border: 5px;
 }
