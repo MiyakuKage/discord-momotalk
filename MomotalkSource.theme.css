@@ -371,7 +371,7 @@
 		background-color: var(--messagebubble);
 		border-radius: var(--momo-messages-border-radius);
 		width: fit-content;
-		top: -9px;
+		top: 0px;
 		padding: 20px;
 
 		&:has(:first-child.reactions__23977) {
@@ -1047,6 +1047,7 @@ background-color: var(--momotalkbannerLIGHT) !important;
 .container_a2f514{
 	background-color: var(--momotalkbannerLIGHT) !important;
 }
+
 
 
 
