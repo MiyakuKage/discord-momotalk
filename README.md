@@ -30,15 +30,15 @@ Last Updated : 09/04/2025<br>
 	- Some visual fixes
 	- Made embeds more game accurate (You can change their colors by adding <b>"--embedcolor"</b> and <b>"--embedborder" </b> (or "--embedcolorLIGHT" and "--embedborderLIGHT") to your variables
       	 <br> 27/09/2025 <br>
-	- Fixed colors that discord broke AGAIN
-	- Fixed Decorations not scaling properly in message search
+	- Fixed colors that discord broke AGAIN<br>
+	- Fixed Decorations not scaling properly in message search<br>
 	- Added something in the appearance tab
       	 <br> 11/04/2025 <br>
-	- Changing background and call images actually works now
-	- New characters added
+	- Changing background and call images actually works now<br>
+	- New characters added<br>
  	- Updated the README screenshot
       	 <br> 09/04/2025 (again)<br>
-	- Added a thing to have your favorite character in the background! (More info above)
+	- Added a thing to have your favorite character in the background! (More info above)<br>
  	- Fixed a few color issues, restored the custom Loading Screen
       	 <br> 09/04/2025<br>
 	 - Wouldn't you know it, Discord's Visual Refresh Update broke EVERYTHING again. We've been hard at work fixing it, and a stable version was just released! To access it fully, download the new CSS of version 3.0.
