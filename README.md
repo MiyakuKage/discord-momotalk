@@ -27,7 +27,7 @@ Last Updated : 09/04/2025<br>
 <hr>
 <h4>Changelog :</h4>
       	 <br> 15/15/2025 <br>
-	- Some visual fixes
+	- Some visual fixes<br>
 	- Made embeds more game accurate (You can change their colors by adding <b>"--embedcolor"</b> and <b>"--embedborder" </b> (or "--embedcolorLIGHT" and "--embedborderLIGHT") to your variables
     <br>  	 <br> 27/09/2025 <br>
 	- Fixed colors that discord broke AGAIN<br>
