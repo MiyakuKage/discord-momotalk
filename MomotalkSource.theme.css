@@ -131,7 +131,9 @@
   background: url('https://miyakukage.github.io/discord-momotalk/img/kohawarn.png') no-repeat center center;
   background-size: contain; /* or cover */
 }
-
+.chat_f75fb0{
+	background-color: var(--channeltopbar) !important;
+}
 
 /* Arona in main chat AND background*/
 [class*="chatContent_"] {
@@ -184,15 +186,13 @@
 	background-color: rgb(35, 67, 84) !important;
 	color: rgb(219, 219, 219) !important
 }
-.panels_c48ade { /* User Thing */
+.panels__5e434 { /* User Thing */
 	background-color: var(--momotalkbanner) !important;
 	border: none;
 }
 
-.container__37e49 {
-	top: 3px
-}
-.wrapper_ef3116.guilds_c48ade { /* server list */
+
+.wrapper_ef3116.guilds__5e434 { /* server list */
 	background-color: var(--serverlist);
 }
 
@@ -243,7 +243,7 @@
 }
 
 /* Momotalk Icon */
-.base_c48ade:has(.privateChannels__35e86) .title_c38106 {
+.base__5e434:has(.privateChannels_e6b769) .title_c38106 {
 
 	position: absolute; /* Or fixed if it should stay visible at all times */
 	background-image: url('https://miyakukage.github.io/discord-momotalk/img/logo.png');
@@ -255,7 +255,7 @@
 
 
 
-.base_c48ade:has(.privateChannels__35e86) .title_bb0d86 {
+.base__5e434:has(.privateChannels_e6b769) .title_edbb22 {
 	display: none;
 
 }
@@ -576,33 +576,20 @@ background-color: var(--momotalkbanner) !important;
 }
 
 /* bye bye to the little hole by the server list*/
-.sidebar_c48ade {
+.sidebar_5e434 {
 	border-radius: 0 !important;
 }
-
-/* The profile banner */
-/* solved by literally stretching the div to fit */
-.panels_c48ade {
-	border-radius: 0 !important;
-	left: 0% !important;
-	width: 100% !important;
-
+.sidebar__5e434:after {
+	display: none;
 }
 
-.container__4bbc6.fitInAccount__4bbc6 {
-	height: 120%;
-	top: -5% !important;
-
+.sidebarList__5e434.sidebarListRounded__5e434{
+	border-radius: 0px;
+	background-color: var(--sidebar);
 }
-
-
-/* a very thin strip of color at the bottom */
-.visual-refresh .sidebar_c48ade:after {
-	background-color: var(--momotalkbanner);
-	right: 0;
-
+.privateChannels_e6b769 {
+	background-color: var(--sidebar);
 }
-
 
 /* BIG TEXT */
 .markup__75297 h3 {
@@ -666,7 +653,7 @@ background-color: var(--momotalkbanner) !important;
 		font-weight: bold;
 		}
 	}
-	.searchBar__35e86 {
+	.searchBar_e6b769 {
 		background-color: var(--sidebar) !important;
 }
 
@@ -683,8 +670,13 @@ background-color: var(--momotalkbanner) !important;
 
 .title_f75fb0.container__9293f.themed__9293f {
 	background-color: var(--channeltopbar);
+
 }
 
+.subtitleContainer_f75fb0{
+	color: red;
+	background-color: red;
+}
 
 /*search bar*/
 .defaultColor__4bd52.searchFilter_bd8186 {
@@ -748,7 +740,7 @@ background-color: var(--momotalkbanner) !important;
 	background-size: 400px
 }
 
-.panels_c48ade {
+.panels__5e434 {
 border-color: transparent !important;
 }
 
@@ -841,6 +833,9 @@ border-color: transparent !important;
 	background-repeat: no-repeat !important;
 	background-attachment: fixed !important;
 }
+.chat_f75fb0{
+	background-color: var(--channeltopbarLIGHT) !important;
+}
 
 /* Colors */
 .themedBackground__74017{ /* Typing area */
@@ -853,11 +848,11 @@ border-color: transparent !important;
 	color: white;
 
 }
-.panels_c48ade { /* User Thing */
+.panels__5e434 { /* User Thing */
 	background-color: var(--momotalkbannerLIGHT) !important;
 }
 
-.wrapper_ef3116.guilds_c48ade { /* server list */
+.wrapper_ef3116.guilds__5e434 { /* server list */
 	background-color: var(--serverlistLIGHT);
 }
 
@@ -914,9 +909,15 @@ background-color: var(--momotalkbannerLIGHT) !important;
 }
 
 /* a very thin strip of color at the bottom */
-.sidebar_c48ade:after {
+.sidebar_5e434:after {
 	background-color: var(--momotalkbannerLIGHT);
 
+}
+.sidebarList__5e434.sidebarListRounded__5e434{
+	background-color: var(--sidebarLIGHT);
+}
+.privateChannels_e6b769 {
+	background-color: var(--sidebarLIGHT);
 }
 
 .scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
@@ -979,7 +980,7 @@ background-color: var(--momotalkbannerLIGHT) !important;
 			background-color: var(--sidebarLIGHT);
 		}
 	}
-	.searchBar__35e86 {
+	.searchBar_e6b769 {
 		background-color: var(--sidebarLIGHT) !important;
 }
 
