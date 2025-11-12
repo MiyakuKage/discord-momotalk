@@ -425,7 +425,6 @@
 		}
 
 		&::after {
-			left: 75px;
 			transform: rotate(180deg);
 		}
 	}
@@ -433,8 +432,16 @@
 	.container_b7e1cb {
 		margin-left: 13px;
 	}
-
-
+}
+/* Triangle position for different densities */
+.density-compact [data-is-self="false"] .message__5126c >.contents_c19a55::after {
+	left: 66px;
+}
+.density-default [data-is-self="false"] .message__5126c >.contents_c19a55::after {
+	left: 75px;
+}
+.density-cozy [data-is-self="false"] .message__5126c >.contents_c19a55::after {
+	left: 82px;
 }
 
 /* Self Message Container */
@@ -456,10 +463,6 @@
 		img.avatar_c19a55 {
 			left: initial;
 			right: var(--custom-message-margin-horizontal);
-		}
-
-		&::after {
-			right: 71px;
 		}
 	}
 
@@ -494,6 +497,16 @@
 		border-top-right-radius: 6px;
 	}
 	
+}
+/* Triangle position for different densities */
+html.density-compact [data-is-self="true"] .message__5126c >.contents_c19a55::after {
+	right: 62px;
+}
+html.density-default [data-is-self="true"] .message__5126c >.contents_c19a55::after {
+	right: 71px;
+}
+html.density-cozy [data-is-self="true"] .message__5126c >.contents_c19a55::after {
+	right: 78px;
 }
 
 /* Move Profile Pic */
