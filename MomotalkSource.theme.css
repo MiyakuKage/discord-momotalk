@@ -301,14 +301,13 @@
 }
 
 /* Usernames */
-
-.username_c19a55:not([data-username-with-effects]) {
-font-weight: 600 !important;
+.username_c19a55 {
+	font-weight: 600 !important;
     text-shadow: -1px -1px 0 var(--usernameoutline), 1px -1px 0 var(--usernameoutline), -1px 1px 0 var(--usernameoutline), 1px 1px 0 var(--usernameoutline);
-/*text-shadow: -0.5px -0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%),
-       0.5px -0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%),
-      -0.5px 0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%),
-       0.5px 0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%);*/
+}
+/* Remove outline for user with effects */
+.username_c19a55 span {
+    text-shadow: none;
 }
 
 /* DM List */
@@ -930,9 +929,9 @@ border-color: transparent !important;
 }
 
 /* Usernames */
-.username_c19a55 not:data-username-with-effects{
+.username_c19a55 {
 	color: var(--usernameLIGHT);
-	text-shadow: 1px 2px 2px var(--usernameoutlineLIGHT), -1px -2px 2px var(--usernameoutlineLIGHT);
+	text-shadow: -1px -1px 0 var(--usernameoutlineLIGHT), 1px -1px 0 var(--usernameoutlineLIGHT), -1px 1px 0 var(--usernameoutlineLIGHT), 1px 1px 0 var(--usernameoutlineLIGHT);
 }
 
 
