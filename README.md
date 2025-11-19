@@ -26,7 +26,11 @@ Last Updated : 09/04/2025<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
-      	 <br> 15/15/2025 <br>
+      	 <br> 19/11/2025 <br>
+	- Multiple visual fixes (mostly light mode)<br>
+	- The backgroundcolor variable actually works now lol
+	<br>
+      	 <br> 15/10/2025 <br>
 	- Some visual fixes<br>
 	- Made embeds more game accurate (You can change their colors by adding <b>"--embedcolor"</b> and <b>"--embedborder" </b> (or "--embedcolorLIGHT" and "--embedborderLIGHT") to your variables
     <br>  	 <br> 27/09/2025 <br>
