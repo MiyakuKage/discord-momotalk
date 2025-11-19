@@ -302,7 +302,7 @@
 
 /* Usernames */
 
-.username_c19a55 not:data-username-with-effects{
+.username_c19a55:not([data-username-with-effects]) {
 font-weight: 600 !important;
     text-shadow: -1px -1px 0 var(--usernameoutline), 1px -1px 0 var(--usernameoutline), -1px 1px 0 var(--usernameoutline), 1px 1px 0 var(--usernameoutline);
 /*text-shadow: -0.5px -0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%),
