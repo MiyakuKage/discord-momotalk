@@ -1,6 +1,6 @@
 /**
   * @name SOURCE - MomoTalk (Visual Refresh)
-  * @author yumemiya - elatedcard - kyonakansou
+  * @author yumemiya - elatedcard - kyonakansou - kuurp
   * @version 3.5
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
@@ -12,7 +12,8 @@
 
 /* Change Colors Here!!!! */
 :root {
-
+	--backgroundcolor: #323339;
+	
 	--momotalkbanner: #E56072;
 
 	--senseimessagebubble: #4A8AC8;
@@ -59,6 +60,8 @@
 
 
 	/*FOR LIGHTMODE*/
+	--backgroundcolorLIGHT: #FBFBFB;
+	
 	--momotalkbannerLIGHT: #FB90A4;
 
 	--senseimessagebubbleLIGHT: #4A8AC8;
@@ -102,7 +105,6 @@
 	--callimageLIGHT: url('your image url here.png');
 }
 
-
 /* Arona in friends */
 
 .scroller__7d20c {
@@ -142,8 +144,11 @@
 	background-repeat: no-repeat, no-repeat !important;
 	background-position: var(--bgcharacterposition), center center !important;
 	background-attachment: fixed, fixed !important;
+	background-color: var(--backgroundcolor) !important;
 }
-
+.chatGradient__36d07 {
+	background: var(--backgroundcolor) !important;
+}
 
 .voiceCallWrapper_a21736 {
 	background-image: var(--callimage) !important;
@@ -208,7 +213,9 @@
 
 }
 
-
+.theme-dark .button_f7ecac {
+    color: black;
+}
 
 /*replace with colour if you want a colour behind your image */
 #app-mount .tutorialContainer__1f388 .childWrapper__6e9f8 {
@@ -294,13 +301,15 @@
 }
 
 /* Usernames */
-.username_c19a55 {
-	color: var(--username);
-	font-weight: bold !important;
-	margin-left: 8px;
-	text-shadow: 1px 2px 2px var(--usernameoutline), -1px -2px 2px var(--usernameoutline);
-}
 
+.username_c19a55 not:data-username-with-effects{
+font-weight: 600 !important;
+    text-shadow: -1px -1px 0 var(--usernameoutline), 1px -1px 0 var(--usernameoutline), -1px 1px 0 var(--usernameoutline), 1px 1px 0 var(--usernameoutline);
+/*text-shadow: -0.5px -0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%),
+       0.5px -0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%),
+      -0.5px 0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%),
+       0.5px 0.5px 0 color-mix(in oklab, currentColor 25%, hsl(from currentColor calc(h + 180) s l) 75%);*/
+}
 
 /* DM List */
 .membersWrap_c8ffbb {
@@ -805,6 +814,7 @@ border-color: transparent !important;
 	background-position: right !important;
 	background-repeat: no-repeat !important;
 	background-size: 50% !important;
+	border-radius: 5px;
 }
 
 
@@ -815,7 +825,7 @@ border-color: transparent !important;
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
 
-	.messageGroupWrapper__45690{ /* FIX FOR PINS */
+	[class*="messageGroupWrapper_"]{ /* FIX FOR PINS */
 	background-color:  var(--messagebubbleLIGHT) !important;
 	}
 
@@ -837,8 +847,11 @@ border-color: transparent !important;
 	background-repeat: no-repeat, no-repeat !important;
 	background-position: var(--bgcharacterpositionLIGHT), center center !important;
 	background-attachment: fixed, fixed !important;
+	background-color: var(--backgroundcolorLIGHT) !important;
 }
-
+.chatGradient__36d07 {
+	background: var(--backgroundcolorLIGHT) !important;
+}
 .voiceCallWrapper_a21736 {
 	background-image: var(--callimageLIGHT) !important;
 	background-size: contain !important;
@@ -903,7 +916,7 @@ border-color: transparent !important;
 }
 
 /* Usernames */
-.username_c19a55 {
+.username_c19a55 not:data-username-with-effects{
 	color: var(--usernameLIGHT);
 	text-shadow: 1px 2px 2px var(--usernameoutlineLIGHT), -1px -2px 2px var(--usernameoutlineLIGHT);
 }
@@ -933,7 +946,7 @@ background-color: var(--momotalkbannerLIGHT) !important;
 }
 
 .scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
-	background-color: #6A6A84 !important;
+	background-color: #8cc8de !important;
 	color: white !important;
 }
 
