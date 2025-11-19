@@ -348,6 +348,11 @@ font-weight: 600 !important;
 		font-size: 15px;
 	}
 
+	/* Hide triangle if message is sending */
+	&.groupStart__5126c>.contents_c19a55:has(.isSending_c19a55)::after {
+		opacity: 0.0;
+	}
+
 	&.groupStart__5126c>.contents_c19a55::after {
 		top: 30px;
 	}
@@ -528,12 +533,21 @@ html.density-cozy [data-is-self="true"] .message__5126c >.contents_c19a55::after
     left: unset;
     right: 4px;
 }
-/* Move Decoration */
+/* Move Decoration (depends on density) */
 .avatarDecoration_c19a55{
 	right: unset;
-    left: 11px;
 	bottom: unset;
 }
+.density-compact [data-is-self="false"] .avatarDecoration_c19a55{
+	left: 7px;
+}
+.density-default [data-is-self="false"] .avatarDecoration_c19a55{
+	left: 11px;
+}
+.density-cozy [data-is-self="false"] .avatarDecoration_c19a55{
+	left: 16px;
+}
+
 /* Decoration size */
 .avatarDecoration_c19a55 {
   height: 59px;
