@@ -830,6 +830,11 @@ border-color: transparent !important;
 	margin-right: 1% !important;
 }
 
+/* Game invitation embed */
+.container_b7e1cb:has(.embed__98ba8) {
+	width: 300px;
+}
+
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
 

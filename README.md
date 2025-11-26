@@ -26,6 +26,9 @@ Last Updated : 09/04/2025<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 26/11/2025 <br>
+	- Fix for game invitations embeds
+	<br>
       	 <br> 19/11/2025 <br>
 	- Multiple visual fixes (mostly light mode)<br>
 	- The backgroundcolor variable actually works now lol
