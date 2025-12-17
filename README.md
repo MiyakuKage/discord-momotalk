@@ -26,6 +26,9 @@ Last Updated : 09/04/2025<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 17/12/2025 <br>
+	- Fix class hashes that changed
+	<br>
       	 <br> 26/11/2025 <br>
 	- Fix for game invitations embeds
 	<br>

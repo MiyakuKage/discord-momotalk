@@ -138,7 +138,7 @@
 }
 
 /* Arona in main chat AND background*/
-[class*="chatContent_"] {
+.f75fb00fb7356cbe-chatContent {
 	background-image: var(--bgcharacter), var(--bgimage) !important;
 	background-size: auto 80%, cover !important;
 	background-repeat: no-repeat, no-repeat !important;
@@ -247,6 +247,11 @@
     align-items: center;
     position: absolute;
     bottom: 0;
+}
+
+/* Hiding broken gradient in typing */
+._36d072eab2b2e737-chatTypingGradientAtBottom._36d072eab2b2e737-chatGradientBase {
+    display: none;
 }
 
 /* Momotalk Icon */
@@ -379,6 +384,11 @@
 			background-color: var(--messagebubble);
 			overflow: visible;
 		}
+	}
+	
+	/* Editting message background */
+	._740174f3d6a2c8fe-themedBackground {
+		background-color: var(--senseimessagebubble);
 	}
 
 &:has(>.c19a557985eb7793-contents>._752971923a1e6683-markup:empty)>.b7e1cb0370c2dd0e-container {
@@ -854,7 +864,7 @@ border-color: transparent !important;
 	}
 
 /* Arona in main chat AND background*/
-[class*="chatContent_"] {
+.f75fb00fb7356cbe-chatContent {
 	background-image: var(--bgcharacterLIGHT), var(--bgimageLIGHT) !important;
 	background-size: auto 80%, cover !important;
 	background-repeat: no-repeat, no-repeat !important;
