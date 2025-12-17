@@ -177,10 +177,10 @@
 
 /* Colors */
 
-[class*="themedBackground_"]{ /* Typing area */
-	background-color: var(--senseimessagebubble);
+._740174f3d6a2c8fe-themedBackground { /* Typing area */
+	background-color: var(--senseimessagebubble) !important;
 }
-.f75fb00fb7356cbe-channelBottomBarArea svg{
+._0923f156a0410684-attachButtonInner svg{
 	color: var(--messagefontcolor);
 }
 ._1b31f471f0bb10ab-placeholder.ec4baf0360ff3578-slateTextArea.fontSize16Padding__74017{
@@ -195,7 +195,9 @@
 	background-color: var(--momotalkbanner) !important;
 	border: none;
 }
-
+.aa63abf63dbd9cce-activeButtonChild {
+	color: var(--messagefontcolor);
+}
 
 .ef3116c2da186559-wrapper._5e434347c823b592-guilds { /* server list */
 	background-color: var(--serverlist);
