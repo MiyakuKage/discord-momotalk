@@ -4,7 +4,6 @@
   * @version 4.0
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
-  * @updateUrl https://github.com/MiyakuKage/discord-momotalk/blob/main/Momotalk.theme.css
 */
 
 
@@ -99,17 +98,3 @@
 	--callimageLIGHT: url('your image url here.png');
 }
 
-
-.d852db00c0588eb9-wrapper{
-	background-image: url('https://i.imgur.com/ty3XjgC.gif');
-	background-repeat: no-repeat;
-	background-position: right 2% bottom 10%;
-	background-size: 100px;
-	background-color: transparent;
-	background-attachment: fixed;
-	z-index: 1000;
-	}
-	
-.fc817765600a960a-wrapper{
-display: none;
-	}
