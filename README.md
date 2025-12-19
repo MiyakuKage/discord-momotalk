@@ -10,22 +10,35 @@
 <hr>
 Last Updated : 09/04/2025<br>
 <h3> HOW TO INSTALL </h3>
-(● 0. No matter which theme you choose, you have to make sure your Discord is in Dark Mode because of limitations!)<br>
-● 1. Install the Discord Desktop App, then the Vencord mod for it. (Not compatible with BetterDiscord for now!)<br>
+<h2> VENCORD </h2>
+● 1. Install the Discord Desktop App, then the Vencord mod for it.<br>
 ● 2. Once on Vencord, go into Settings > Plugins, and enable the "ThemeAttributes" plugin, then restart the app.<br>
 ● 3. Go into Settings > Themes > Open Themes folder, and put the theme file into said folder :<br>
       <center>
-        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/download/3.0/Momotalk.theme.css">Download the theme HERE!</a> 
+        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/">Download the theme HERE!</a> 
     </center><br>
 ● 4. On Discord, press the "Load Missing Themes" button, and enable it!<br>
+<h2> BETTERDISCORD </h2>
+● 1. Install the Discord Desktop App, then the BetterDiscord mod for it.<br>
+● 2. Once on BetterDiscord, go into Settings > Themes, and click on the "Open Theme Folder" icon on the top left. Put the theme file into said folder :<br>
+      <center>
+        <a href="https://github.com/MiyakuKage/discord-momotalk/releases/">Download the theme HERE!</a> 
+    </center><br>
+● 4. You might have to exit the Themes tab, then open it back up. Then enable the theme!<br>
+<h2> CUSTOMISATION </h2>
 ● 5 The theme now supports Dark and Light Mode : Go into Discord's Settings' "Appearance" Tab, and change your Theme from there, our theme should match accordingly!<br>
 ● 5.5 If you want, you can edit the downloaded files to put your own colors!<br>
 ● 5.6 You can even change the background character in the file! ("none" by default) current list:<br>
 	- arona, plana, mari, misaka, mika, serika, yuuka, kisaki, juri - tsumugi, jtfmob
  [If you want me to add your favorite character, send me a message!]
+<br>
+● 5.7 And you can even put an additional background image behind with the included variables.
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 19/12/2025 <br>
+	- Updated ReadMe to include BetterDiscord
+	<br>
       	 <br> 17/12/2025 <br>
 	- Fix class hashes that changed
 	<br>
