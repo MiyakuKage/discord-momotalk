@@ -1,9 +1,10 @@
 /**
   * @name MomoTalk (Visual Refresh)
   * @author yumemiya - elatedcard - kyonakansou
-  * @version 3.3
+  * @version 4.0
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
+  * @updateUrl https://github.com/MiyakuKage/discord-momotalk/blob/main/Momotalk.theme.css
 */
 
 
@@ -47,9 +48,9 @@
 	--hovericoncolor: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(106%) contrast(105%);
 
 	/* Change Images Here !!!! */
-	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/misaka.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	--bgcharacterposition: bottom 50px right 1100px;
-	--characterfriends: url('https://miyakukage.github.io/discord-momotalk/img/chara/plana.apng'); 
+	--bgcharacter: url('https://miyakukage.github.io/discord-momotalk/img/chara/mika.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
+	--bgcharacterposition: bottom 10% left 30%;
+	--characterfriends: url('https://i.imgur.com/ty3XjgC.gif'); 
 
 	--bgimage: url('your image url here.png');
 
@@ -90,7 +91,7 @@
 
 	/* Change Images Here !!!! */
 	--bgcharacterLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/mari.apng'); /*HERE, You can change the character that appears in the background! Change "none.apng" by one of the characters listed in the GitHub README, or by your own image!*/
-	--bgcharacterpositionLIGHT: bottom 50px right 1100px;
+	--bgcharacterposition: bottom 10% left 30%;
 	--characterfriendsLIGHT: url('https://miyakukage.github.io/discord-momotalk/img/chara/arona.apng'); 
 	
 	--bgimageLIGHT: url('your image url here.png');
@@ -98,3 +99,17 @@
 	--callimageLIGHT: url('your image url here.png');
 }
 
+
+.d852db00c0588eb9-wrapper{
+	background-image: url('https://i.imgur.com/ty3XjgC.gif');
+	background-repeat: no-repeat;
+	background-position: right 2% bottom 10%;
+	background-size: 100px;
+	background-color: transparent;
+	background-attachment: fixed;
+	z-index: 1000;
+	}
+	
+.fc817765600a960a-wrapper{
+display: none;
+	}
