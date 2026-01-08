@@ -36,6 +36,10 @@ Last Updated : 09/04/2025<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 08/01/2026 <br>
+	- Added the send button
+	- Added Arona loading gif
+	<br>
       	 <br> 19/12/2025 <br>
 	- Updated ReadMe to include BetterDiscord
 	<br>
