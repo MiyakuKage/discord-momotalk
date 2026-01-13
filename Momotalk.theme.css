@@ -10,8 +10,12 @@
 
 @import url('https://miyakukage.github.io/discord-momotalk/MomotalkSource.theme.css');
 
-
-
+/* Uncomment this if you want to disable the custom cursor */
+/*
+* {
+	cursor: unset !important;
+}
+*/
 
 /* Change Colors Here!!!! */
 :root {
