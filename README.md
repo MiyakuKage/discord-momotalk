@@ -8,7 +8,7 @@
 
 <h2>And if you post screenshots of this somewhere, please tag me, I wanna see how you customize it!</h2>
 <hr>
-Last Updated : 09/04/2025<br>
+Last Updated : 13/01/2026<br>
 <h3> HOW TO INSTALL </h3>
 <h2> VENCORD </h2>
 ● 1. Install the Discord Desktop App, then the Vencord mod for it.<br>
@@ -36,8 +36,11 @@ Last Updated : 09/04/2025<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
-      	 <br> 08/01/2026 <br>
-	- Added the send button
+      	 <br> 13/01/2026 <br>
+	- Added the cursor from the new update of the steam version ! If you want to disable it, reinstall the theme and uncomment the new "cursor: unset" line.
+	<br>
+		 <br> 08/01/2026 <br>
+	- Added the send button<br>
 	- Added Arona loading gif
 	<br>
       	 <br> 19/12/2025 <br>

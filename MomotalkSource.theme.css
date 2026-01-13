@@ -105,6 +105,11 @@
 	--callimageLIGHT: url('your image url here.png');
 }
 
+/* The cursor ! */
+* {
+	cursor: url("https://miyakukage.github.io/discord-momotalk/img/cursor.png"), auto !important;
+}
+
 /* Arona in friends */
 
 ._7d20cf18f8a2784c-scroller {
@@ -121,7 +126,7 @@
 
 /* Arona loading */
 .d852db00c0588eb9-wrapper {
-    background-image: url('https://i.imgur.com/ty3XjgC.gif');
+    background-image: url('https://miyakukage.github.io/discord-momotalk/img/aronaLoading.gif');
     background-repeat: no-repeat;
     background-position: right 2% bottom 10%;
     background-size: 100px;
@@ -137,7 +142,7 @@
 /* Send Button */
 .aa63abf63dbd9cce-sendIcon {
     width: 80px !important;
-    background-image: url("https://i.imgur.com/isww9d4.png");
+    background-image: url("https://miyakukage.github.io/discord-momotalk/img/sendButton.png");
     background-size: 80px;
     height: 34px !important;
 }
