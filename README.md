@@ -36,6 +36,9 @@ Last Updated : 13/01/2026<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 25/01/2026 <br>
+	- Fixed discord's mess AGAIN. Theme attributes seems to be still broken on BetterDiscord, but it works fine on Vencord.
+	<br>
       	 <br> 13/01/2026 <br>
 	- Added the cursor from the new update of the steam version ! If you want to disable it, reinstall the theme and uncomment the new "cursor: unset" line.
 	<br>

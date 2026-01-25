@@ -112,20 +112,20 @@
 
 /* Arona in friends */
 
-._7d20cf18f8a2784c-scroller {
+.scroller__7d20c {
 	background-image: var(--characterfriends);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-attachment: fixed;
 }
-._3e443c6b2569044a-preview {
+.preview__3e443 {
   position: relative;
   display: block;
 }
 
 /* Arona loading */
-.d852db00c0588eb9-wrapper {
+.wrapper_d852db {
     background-image: url('https://miyakukage.github.io/discord-momotalk/img/aronaLoading.gif');
     background-repeat: no-repeat;
     background-position: right 2% bottom 10%;
@@ -135,41 +135,41 @@
     z-index: 1000;
 }
     
-.fc817765600a960a-wrapper {
+.wrapper_fc8177 {
 	display: none;
 }
 
 /* Send Button */
-.aa63abf63dbd9cce-sendIcon {
+.sendIcon_aa63ab {
     width: 80px !important;
     background-image: url("https://miyakukage.github.io/discord-momotalk/img/sendButton.png");
     background-size: 80px;
     height: 34px !important;
 }
 
-.aa63abf63dbd9cce-button:has(.aa63abf63dbd9cce-sendIcon):hover {
+.button_aa63ab:has(.sendIcon_aa63ab):hover {
 	background-color: transparent !important;
 }
 
-.aa63abf63dbd9cce-sendIcon:hover {
+.sendIcon_aa63ab:hover {
 	filter: brightness(1.15);
 }
 
-._24af7f4d0326ba4f-noHover .aa63abf63dbd9cce-sendIcon:hover {
+.noHover__24af7 .sendIcon_aa63ab:hover {
 	filter: none;
 }
 
-.aa63abf63dbd9cce-sendIcon>* {
+.sendIcon_aa63ab>* {
 	display: none;
 }
 
 /* Hide everything inside */
-._3e443c6b2569044a-preview > * {
+.preview__3e443 > * {
   display: none !important;
 }
 
 /* Add your replacement image */
-._3e443c6b2569044a-preview::before {
+.preview__3e443::before {
   content: "";
   display: block;
   width: 100%;   /* set your size */
@@ -177,12 +177,12 @@
   background: url('https://miyakukage.github.io/discord-momotalk/img/kohawarn.png') no-repeat center center;
   background-size: contain; /* or cover */
 }
-.f75fb00fb7356cbe-chat{
+.chat_f75fb0{
 	background-color: var(--channeltopbar) !important;
 }
 
 /* Arona in main chat AND background*/
-.f75fb00fb7356cbe-chatContent {
+.chatContent_f75fb0 {
 	background-image: var(--bgcharacter), var(--bgimage) !important;
 	background-size: auto 80%, cover !important;
 	background-repeat: no-repeat, no-repeat !important;
@@ -190,22 +190,22 @@
 	background-attachment: fixed, fixed !important;
 	background-color: var(--backgroundcolor) !important;
 }
-._36d072eab2b2e737-chatGradient {
+.chatGradient__36d07 {
 	background: var(--backgroundcolor) !important;
 }
 
-.a21736575ea33af0-voiceCallWrapper {
+.voiceCallWrapper_a21736 {
 	background-image: var(--callimage) !important;
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
 	background-attachment: fixed !important;
 }
 /* killing wumpus */
-._72ba79a5dfa2ce86-addFriendWumpusWrapper img {
+.addFriendWumpusWrapper__72ba7 img {
 	visibility: hidden;
 }
  
-._72ba79a5dfa2ce86-addFriendWumpusWrapper::after {
+.addFriendWumpusWrapper__72ba7::after {
 	content: "";
 	position: absolute;
 	bottom: -300%;	
@@ -221,29 +221,29 @@
 
 /* Colors */
 
-._740174f3d6a2c8fe-themedBackground { /* Typing area */
+.themedBackground__74017 { /* Typing area */
 	background-color: var(--senseimessagebubble) !important;
 }
-._0923f156a0410684-attachButtonInner svg{
+.attachButtonInner__0923f svg{
 	color: var(--messagefontcolor);
 }
-._1b31f471f0bb10ab-placeholder.ec4baf0360ff3578-slateTextArea.fontSize16Padding__74017{
+.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017{
 	color: var(--messagefontcolor);
 
 }
-.theme-dark._506b39a96c2f8884-scrollbarGhostHairline._506b39a96c2f8884-scrollbar.hljs { /* Code Block */
+.theme-dark.scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
 	background-color: rgb(35, 67, 84) !important;
 	color: rgb(219, 219, 219) !important
 }
-._5e434347c823b592-panels { /* User Thing */
+.panels__5e434 { /* User Thing */
 	background-color: var(--momotalkbanner) !important;
 	border: none;
 }
-.aa63abf63dbd9cce-activeButtonChild {
+.activeButtonChild_aa63ab {
 	color: var(--messagefontcolor);
 }
 
-.ef3116c2da186559-wrapper._5e434347c823b592-guilds { /* server list */
+.wrapper_ef3116.guilds__5e434 { /* server list */
 	background-color: var(--serverlist);
 }
 
@@ -253,18 +253,18 @@
 
 
 /*Home Image*/
-.cc5dd25190031396-wrapper:hover ._6e9f8dce4cc18de3-childWrapper,
-._6e9f8dce4cc18de3-childWrapper {
+.wrapper_cc5dd2:hover .childWrapper__6e9f8,
+.childWrapper__6e9f8 {
 	background-color: transparent;
 
 }
 
-.theme-dark .f7ecaca5c80dbf3a-button {
+.theme-dark .button_f7ecac {
     color: black;
 }
 
 /*replace with colour if you want a colour behind your image */
-#app-mount ._1f388bcaa446c0c8-tutorialContainer ._6e9f8dce4cc18de3-childWrapper {
+#app-mount .tutorialContainer__1f388 .childWrapper__6e9f8 {
 	background-image: url('https://miyakukage.github.io/discord-momotalk/img/home.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -272,21 +272,21 @@
 
 }
 
-._6e9f8dce4cc18de3-childWrapper svg {
+.childWrapper__6e9f8 svg {
 	display: none;
 }
 
-._6e9f8dce4cc18de3-childWrapper._6e9f8dce4cc18de3-childWrapperNoHoverBg {
+.childWrapper__6e9f8.childWrapperNoHoverBg__6e9f8 {
 	background-color: transparent !important;
 }
 
-._918165dab2b1e10b-listItemWrapper.selected_dfb2f8 {
+.listItemWrapper__91816.selected_dfb2f8 {
 	background-color: #66778B !important;
 
 }
 
 /* Fixing Discord's Mess... again... */
-.c38106a3f0c3ca76-title {
+.title_c38106 {
     display: flex;
     justify-content: left;
     margin-left: 20px;
@@ -296,12 +296,12 @@
 }
 
 /* Hiding broken gradient in typing */
-._36d072eab2b2e737-chatTypingGradientAtBottom._36d072eab2b2e737-chatGradientBase {
+.chatTypingGradientAtBottom__36d07.chatGradientBase__36d07 {
     display: none;
 }
 
 /* Momotalk Icon */
-._5e434347c823b592-base:has(.e6b7699ce8339e1c-privateChannels) .c38106a3f0c3ca76-title {
+.base__5e434:has(.privateChannels_e6b769) .title_c38106 {
 
 	position: absolute; /* Or fixed if it should stay visible at all times */
 	background-image: url('https://miyakukage.github.io/discord-momotalk/img/logo.png');
@@ -313,13 +313,13 @@
 
 
 
-._5e434347c823b592-base:has(.e6b7699ce8339e1c-privateChannels) .edbb22df99c39831-title {
+.base__5e434:has(.privateChannels_e6b769) .title_edbb22 {
 	display: none;
 
 }
 
 /* Top bar */
-.c38106a3f0c3ca76-bar{
+.bar_c38106{
 	background-color: var(--momotalkbanner);
 
 	/* the little discord icon as well as inbox and help */
@@ -328,7 +328,7 @@
 	}
 
 	/* direct message text */
-	._4bd5201c86a2042b-lineClamp1{
+	.lineClamp1__4bd52{
 		color: var(--messagefontcolor);
 	}
 
@@ -347,32 +347,32 @@
 }
 
 /* Message font */
-._752971923a1e6683-markup {
+.markup__75297 {
 	color: var(--messagefontcolor);
 }
 
 /* Usernames */
-.c19a557985eb7793-username {
+.username_c19a55 {
 	font-weight: 600 !important;
     text-shadow: -1px -1px 0 var(--usernameoutline), 1px -1px 0 var(--usernameoutline), -1px 1px 0 var(--usernameoutline), 1px 1px 0 var(--usernameoutline);
 }
 /* Remove outline for user with effects */
-.c19a557985eb7793-username span {
+.username_c19a55 span {
     text-shadow: none;
 }
 
 /* DM List */
-.c8ffbb79449f399c-membersWrap {
+.membersWrap_c8ffbb {
 	background-color: var(--dmlist) !important;
 	scrollbar-color: transparent transparent;
 	border-right: solid;
 	border-color: #DDDDDD;
 	
-	.bf202d63ad53e289-selected {
+	.selected_bf202d {
 		background-color: #DBE4EB !important;
 	}
 
-	._703b91fc872193e8-username {
+	.username__703b9 {
 		font-weight: bold;
 	}
 	.activityText__972a0 {
@@ -382,15 +382,15 @@
 }
 
 /* Common Message Container*/
-._5126c0cd07f243a0-message {
+.message__5126c {
 	--momo-messages-border-radius: 10px;
 
 	display: flex;
 	flex-direction: column;
 
 	/* Message reply arrow*/
-	&._5126c0cd07f243a0-groupStart>.c19a557985eb7793-contents::after,
-	&.c19a557985eb7793-isSystemMessage>.c19a557985eb7793-contents::after {
+	&.groupStart__5126c>.contents_c19a55::after,
+	&.isSystemMessage_c19a55>.contents_c19a55::after {
 		content: "\25BA";
 		position: absolute;
 		color: var(--messagebubble);
@@ -399,23 +399,23 @@
 	}
 
 	/* Hide triangle if message is sending */
-	&._5126c0cd07f243a0-groupStart>.c19a557985eb7793-contents:has(.c19a557985eb7793-isSending)::after {
+	&.groupStart__5126c>.contents_c19a55:has(.isSending_c19a55)::after {
 		opacity: 0.0;
 	}
 
-	&._5126c0cd07f243a0-groupStart>.c19a557985eb7793-contents::after {
+	&.groupStart__5126c>.contents_c19a55::after {
 		top: 30px;
 	}
 
-	&._5126c0cd07f243a0-groupStart.c19a557985eb7793-hasReply>.c19a557985eb7793-contents::after {
+	&.groupStart__5126c.hasReply_c19a55>.contents_c19a55::after {
 		top: 53px;
 	}
 
-	&.c19a557985eb7793-isSystemMessage>.c19a557985eb7793-contents::after {
+	&.isSystemMessage_c19a55>.contents_c19a55::after {
 		top: 9px;
 	}
 
-	>.c19a557985eb7793-contents {
+	>.contents_c19a55 {
 		display: flex;
 		align-items: inherit;
 		flex-direction: column;
@@ -423,7 +423,7 @@
 		width: 100%;
 		max-width: 600px;
 
-		._752971923a1e6683-markup {
+		.markup__75297 {
 			padding: 5px 15px;
 			max-width: 100%;
 			border-radius: var(--momo-messages-border-radius);
@@ -433,25 +433,25 @@
 	}
 	
 	/* Editting message background */
-	._740174f3d6a2c8fe-themedBackground {
+	.themedBackground__74017 {
 		background-color: var(--senseimessagebubble);
 	}
 
-&:has(>.c19a557985eb7793-contents>._752971923a1e6683-markup:empty)>.b7e1cb0370c2dd0e-container {
+&:has(>.contents_c19a55>.markup__75297:empty)>.container_b7e1cb {
 	top: initial;
 }
 
 /* Hide reply arrow if message has no text but has a container (embed) */
-&:has(>.c19a557985eb7793-contents>._752971923a1e6683-markup:empty)>.c19a557985eb7793-contents::after {
+&:has(>.contents_c19a55>.markup__75297:empty)>.contents_c19a55::after {
     display: none;
 }
-._5126c0cd07f243a0-channelTextArea._740174f3d6a2c8fe-channelTextArea{
+.channelTextArea__5126c.channelTextArea__74017{
 	margin-top: -5px;
 }
 
 
 
-	.b7e1cb0370c2dd0e-container {
+	.container_b7e1cb {
 		background-color: var(--embedcolor) !important;
 		margin-top: 5px;
 		border: 2px solid var(--embedborder);
@@ -461,19 +461,19 @@
 		top: 0px;
 		padding: 20px;
 
-		&:has(:first-child._23977d5b7cef7361-reactions) {
+		&:has(:first-child.reactions__23977) {
 			top: initial;
 			padding: 0;
 			background-color: transparent;
 			
 
 
-			._23977d5b7cef7361-reaction._23977d5b7cef7361-reactionMe ._23977d5b7cef7361-reactionCount {
+			.reaction__23977.reactionMe__23977 .reactionCount__23977 {
 				color: var(--brand-560);
 			}
 		}
 
-		&:has(article.embedWrapper_b7e1cb ._623de82e76ad7f82-embedProvider>a[href*="youtube"]) {
+		&:has(article.embedWrapper_b7e1cb .embedProvider__623de>a[href*="youtube"]) {
 			width: 97%;
 			max-width: 432px;
 		}
@@ -484,11 +484,11 @@
 }
 
 /* Other Message Container */
-[data-is-self="false"] ._5126c0cd07f243a0-message {
+[data-is-self="false"] .message__5126c {
 	align-items: start;
 
-	>.c19a557985eb7793-contents {
-		._752971923a1e6683-markup {
+	>.contents_c19a55 {
+		.markup__75297 {
 			margin-left: 13px;
 		}
 
@@ -497,23 +497,23 @@
 		}
 	}
 
-	.b7e1cb0370c2dd0e-container {
+	.container_b7e1cb {
 		margin-left: 13px;
 	}
 }
 /* Triangle position for different densities */
-.density-compact [data-is-self="false"] ._5126c0cd07f243a0-message >.c19a557985eb7793-contents::after {
+.density-compact [data-is-self="false"] .message__5126c >.contents_c19a55::after {
 	left: 66px;
 }
-.density-default [data-is-self="false"] ._5126c0cd07f243a0-message >.c19a557985eb7793-contents::after {
+.density-default [data-is-self="false"] .message__5126c >.contents_c19a55::after {
 	left: 75px;
 }
-.density-cozy [data-is-self="false"] ._5126c0cd07f243a0-message >.c19a557985eb7793-contents::after {
+.density-cozy [data-is-self="false"] .message__5126c >.contents_c19a55::after {
 	left: 82px;
 }
 
 /* Self Message Container */
-[data-is-self="true"] ._5126c0cd07f243a0-message {
+[data-is-self="true"] .message__5126c {
 	--messagebubble: var(--senseimessagebubble);
 	align-items: end;
 
@@ -521,31 +521,31 @@
 	padding-left: 48px;
 	padding-right: var(--custom-message-margin-horizontal) !important;
 
-	&.c19a557985eb7793-cozy {
+	&.cozy_c19a55 {
 		padding-right: var(--custom-message-margin-left-content-cozy) !important;
 	}
 
-	>.c19a557985eb7793-contents {
+	>.contents_c19a55 {
 		margin-right: 9px;
 
-		img.c19a557985eb7793-avatar {
+		img.avatar_c19a55 {
 			left: initial;
 			right: var(--custom-message-margin-horizontal);
 		}
 	}
 
-	.b7e1cb0370c2dd0e-container {
+	.container_b7e1cb {
 		margin-right: 9px;
 
 	}
 
-	.c19a557985eb7793-timestamp {
+	.timestamp_c19a55 {
 		left: initial;
 		right: 0;
 	}
 
 	/* Switch end buttons appears to avoid covering text */
-	.c19a557985eb7793-buttonContainer {
+	.buttonContainer_c19a55 {
 		right: initial;
 		left: 0px;
 
@@ -556,7 +556,7 @@
 
 	 
 	/* New hacky way of fixing the reply "glyph" */
-	.c19a557985eb7793-repliedMessageClickableSpine {
+	.repliedMessageClickableSpine_c19a55 {
 		
 		right: calc(-1*(.625 * var(--chat-avatar-size) + var(--gutter)));
 		left: 100%;
@@ -567,66 +567,66 @@
 	
 }
 /* Triangle position for different densities */
-html.density-compact [data-is-self="true"] ._5126c0cd07f243a0-message >.c19a557985eb7793-contents::after {
+html.density-compact [data-is-self="true"] .message__5126c >.contents_c19a55::after {
 	right: 62px;
 }
-html.density-default [data-is-self="true"] ._5126c0cd07f243a0-message >.c19a557985eb7793-contents::after {
+html.density-default [data-is-self="true"] .message__5126c >.contents_c19a55::after {
 	right: 71px;
 }
-html.density-cozy [data-is-self="true"] ._5126c0cd07f243a0-message >.c19a557985eb7793-contents::after {
+html.density-cozy [data-is-self="true"] .message__5126c >.contents_c19a55::after {
 	right: 78px;
 }
 
 /* Move Profile Pic */
-[data-is-self="true"] .c19a557985eb7793-avatar{
+[data-is-self="true"] .avatar_c19a55{
     left: unset;
     right: 10px !important;
 }
 
 /* Move Self Decoration */
-[data-is-self="true"] .c19a557985eb7793-avatarDecoration{
+[data-is-self="true"] .avatarDecoration_c19a55{
     left: unset;
     right: 4px;
 }
 /* Move Decoration (depends on density) */
-.c19a557985eb7793-avatarDecoration{
+.avatarDecoration_c19a55{
 	right: unset;
 	bottom: unset;
 }
-.density-compact [data-is-self="false"] .c19a557985eb7793-avatarDecoration{
+.density-compact [data-is-self="false"] .avatarDecoration_c19a55{
 	left: 7px;
 }
-.density-default [data-is-self="false"] .c19a557985eb7793-avatarDecoration{
+.density-default [data-is-self="false"] .avatarDecoration_c19a55{
 	left: 11px;
 }
-.density-cozy [data-is-self="false"] .c19a557985eb7793-avatarDecoration{
+.density-cozy [data-is-self="false"] .avatarDecoration_c19a55{
 	left: 16px;
 }
 
 /* Decoration size */
-.c19a557985eb7793-avatarDecoration {
+.avatarDecoration_c19a55 {
   height: 59px;
   width: 59px;
 }
 
-/* Cancel inside .a9e7064fdee8e9b0-searchResultsWrap */
-.a9e7064fdee8e9b0-searchResultsWrap .c19a557985eb7793-avatarDecoration {
+/* Cancel inside .searchResultsWrap_a98f3b */
+.searchResultsWrap_a98f3b .avatarDecoration_c19a55 {
   height: 50px;
   width: 50px;
 }
 
 /* Workaround for avatar size*/
 
-.c19a557985eb7793-avatar {
+.avatar_c19a55 {
     height: 50px;
     width: 50px;
 }
 
-.a9e7064fdee8e9b0-searchResultsWrap .c19a557985eb7793-avatar,
-.f3b986a284a18c78-searchHeader .c19a557985eb7793-avatar,
-.a9e7064fdee8e9b0-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase .c19a557985eb7793-avatar,
-._02a39cb2980ceaaf-container .c19a557985eb7793-avatar,
-._02a39cb2980ceaaf-searchResult .c19a557985eb7793-avatar {
+.searchResultsWrap_a98f3b .avatar_c19a55,
+.searchHeader_ae7890 .avatar_c19a55,
+.scroller_a98f3b.thin_d125d2.scrollerBase_d125d2 .avatar_c19a55,
+.container__80bf8 .avatar_c19a55,
+.searchResult__80bf8 .avatar_c19a55 {
     width: var(--chat-avatar-size);
     height: var(--chat-avatar-size);
 
@@ -634,25 +634,25 @@ html.density-cozy [data-is-self="true"] ._5126c0cd07f243a0-message >.c19a557985e
 
 
 /* NEW messages */
-._0f481cbbd7530492-newMessagesBar._0f481cbbd7530492-barBase {
+.newMessagesBar__0f481.barBase__0f481 {
 background-color: var(--momotalkbanner) !important;
 }
 
-._5126c0cd07f243a0-divider._5126c0cd07f243a0-hasContent._908e20001ad67812-divider._908e20001ad67812-isUnread._908e20001ad67812-hasContent ._908e20001ad67812-content{
+.divider__5126c.hasContent__5126c.divider__908e2.isUnread__908e2.hasContent__908e2 .content__908e2{
 	margin-bottom: 18px !important;
 	background-color: transparent;
 }
 
-.group-spacing-16._5126c0cd07f243a0-divider._5126c0cd07f243a0-beforeGroup,
-._5126c0cd07f243a0-divider._908e20001ad67812-divider._908e20001ad67812-isUnread {
+.group-spacing-16.divider__5126c.beforeGroup__5126c,
+.divider__5126c.divider__908e2.isUnread__908e2 {
    border-width: 20px;
    border-radius: 7px;
    border-color: var(--newmessages);
 
 }
 
-.group-spacing-16 ._5126c0cd07f243a0-divider._5126c0cd07f243a0-beforeGroup::before,
-._5126c0cd07f243a0-divider._908e20001ad67812-divider._908e20001ad67812-isUnread::before{
+.group-spacing-16 .divider__5126c.beforeGroup__5126c::before,
+.divider__5126c.divider__908e2.isUnread__908e2::before{
   content: "Read up to this point."; 
   color: var(--newtextcolor);
   position: relative;
@@ -661,7 +661,7 @@ background-color: var(--momotalkbanner) !important;
   
 }
 
-._908e20001ad67812-unreadPill._908e20001ad67812-endCap {
+.unreadPill__908e2.endCap__908e2 {
 	display: none;
 }
 
@@ -669,163 +669,163 @@ background-color: var(--momotalkbanner) !important;
 .sidebar_5e434 {
 	border-radius: 0 !important;
 }
-._5e434347c823b592-sidebar:after {
+.sidebar__5e434:after {
 	display: none;
 }
 
-._5e434347c823b592-sidebarList._5e434347c823b592-sidebarListRounded{
+.sidebarList__5e434.sidebarListRounded__5e434{
 	border-radius: 0px;
 	background-color: var(--sidebar);
 }
-.e6b7699ce8339e1c-privateChannels {
+.privateChannels_e6b769 {
 	background-color: var(--sidebar);
 }
 
 /* BIG TEXT */
-._752971923a1e6683-markup h3 {
+.markup__75297 h3 {
 	color: var(--messagefontcolor);
 }
 
 
 /* small text */
-._752971923a1e6683-markup small:not(._752971923a1e6683-inlineFormat) {
+.markup__75297 small:not(.inlineFormat__75297) {
 	color: var(--messagefontcolor);
 }
 
 
 /*more on messag */
-.f84418acfdbdfe54-hoverBarButton.f7ecaca5c80dbf3a-button
-.f84418acfdbdfe54-icon :not(.emoji._040f07d21e1fb0d6-emoji) {
+.hoverBarButton_f84418.button_f7ecac
+.icon_f84418 :not(.emoji.emoji__040f0) {
 	filter: var(--hovericoncolor)
 }
 
 /*sidebar little gap fix*/
-._5e434347c823b592-sidebarList {
+.sidebarList__5e434 {
     background-color: var(--sidebar);
 }
 
 /*fixing small gaps on top left of server banner*/
-._960e4207cea8323e-layers {
+.layers__960e4 {
     background-color: #505c72;
 }	
 
 /*fixing code markup background blending with text bubble*/
-/*._752971923a1e6683-markup.c19a557985eb7793-messageContent 
+/*.markup__75297.messageContent_c19a55 
 .inline {
 	background-color: var(--senseimessagebubble) ;
 	
 } */
 
 /* Channel List, heritaged from previous version */
-._2637a2609f343032-container {
+.container__2637a {
 	background-color: var(--sidebar) ;
 }
-.c69b6db0641110f6-containerDefault.c69b6db0641110f6-selected._2ea32c412048f708-link {
+.containerDefault_c69b6d.selected_c69b6d.link__2ea32 {
 	background-color: #68798D ;
 }
 
 /* member list, heritaged from previous version*/
-	.c8ffbb79449f399c-container {
+	.container_c8ffbb {
 	background-color: var(--sidebar);
 }
-	.c8ffbb79449f399c-members {
+	.members_c8ffbb {
 	background-color: var(--sidebar);
 
-		.c8ffbb79449f399c-membersGroup {
+		.membersGroup_c8ffbb {
 			font-weight: bold;
 		}
 
-		.c8ffbb79449f399c-member {
+		.member_c8ffbb {
 			background-color: var(--sidebar);
 		}
 		
-		._91a9d7f7e5248a56-name {
+		.name__91a9d {
 		font-weight: bold;
 		}
 	}
-	.e6b7699ce8339e1c-searchBar {
+	.searchBar_e6b769 {
 		background-color: var(--sidebar) !important;
 }
 
 /* DM list*/
-._99e7cad8d4c55236-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase.d125d22cdfd32cfe-fade{
+.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2{
 	background-color: var(--sidebar);
 }
  
-._5e434347c823b592-sidebarList,
-._5e434347c823b592-sidebarListRounded {
+.sidebarList__5e434,
+.sidebarListRounded__5e434 {
 	border-right: 2px solid var(--sidebarborder); 
 }
 
 
-.f75fb00fb7356cbe-title._9293f6b2fc12398a-container._9293f6b2fc12398a-themed {
+.title_f75fb0.container__9293f.themed__9293f {
 	background-color: var(--channeltopbar);
 
 }
 
 /*search bar*/
-._4bd5201c86a2042b-defaultColor.bd818628221af7aa-searchFilter {
+.defaultColor__4bd52.searchFilter_bd8186 {
 	background-color: #3e4757;
 }
 
-._59d0d7075b521375-layer
-._55c999adcf6db265-container {
+.layer__59d0d
+.container__55c99 {
 	background-color: var(--sidebar);
 }
 
 
 /*quick switcher*/
 .container_ac6cb0
-.ac6cb02cd15b4b3b-quickswitcher {
+.quickswitcher_ac6cb0 {
 	background-color: var(--sidebar);
 }
 
-.ac6cb02cd15b4b3b-scroller._99f8cc7ad4790ce9-auto {
+.scroller_ac6cb0.auto__99f8c {
 	background-color: var(--sidebar);
 }
 
 
 /*search result*/
-.a9e7064fdee8e9b0-searchResultsWrap
-.f3b986a284a18c78-searchHeader {
+.searchResultsWrap_a98f3b
+.searchHeader_ae7890 {
 	background-color: var(--sidebar);
 }
 
-.a9e7064fdee8e9b0-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase {
+.scroller_a98f3b.thin_d125d2.scrollerBase_d125d2 {
 	background-color: var(--sidebar);
 }
 
 
-._02a39cb2980ceaaf-container
-._02a39cb2980ceaaf-searchResult {
+.container__80bf8
+.searchResult__80bf8 {
 	background-color: #373f4e;
 }
 
 
 /*Activity Tab above your profile*/
-._5dec784a68542d60-panel._5e434347c823b592-activityPanel {
+.panel__5dec7.activityPanel__5e434 {
 	background-color: var(--momotalkbanner) !important;
 }
 
-.theme-dark ._9293f6b2fc12398a-children:after {
+.theme-dark .children__9293f:after {
     background: transparent;
 }
-.theme-light ._9293f6b2fc12398a-children:after {
+.theme-light .children__9293f:after {
     background: transparent;
 }
 /*add and discover server button*/
-._5bc7ed9d4097f6b5-circleIconButton {
+.circleIconButton__5bc7e {
 	background-color: var(--serverlist);
 }
 
-#add_friend-tab._133bf5eea8e33a34-peopleColumn {
+#add_friend-tab.peopleColumn__133bf {
 	background-image: url('https://miyakukage.github.io/discord-momotalk/img/miyu.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 400px
 }
 
-._5e434347c823b592-panels {
+.panels__5e434 {
 border-color: transparent !important;
 }
 
@@ -839,13 +839,13 @@ border-color: transparent !important;
 
 
 /* Links colors */
-.c19a557985eb7793-messageContent .edefb8e22d63c542-anchor.edefb8e22d63c542-anchorUnderlineOnHover{
+.messageContent_c19a55 .anchor_edefb8.anchorUnderlineOnHover_edefb8{
 	color: var(--text-link);
 }
 
 
 /* funky loading screen */
-.a2f5142ba8328dfd-container.efbae7425593290b-fixClipping::after{
+.container_a2f514.fixClipping_efbae7::after{
 
 	position: absolute;
 	content: "";
@@ -858,22 +858,22 @@ border-color: transparent !important;
 	background-position: center;
 }
 
-.a2f5142ba8328dfd-container{
+.container_a2f514{
 	background-color: var(--momotalkbanner) !important;
 }
 
-.a2f5142ba8328dfd-spinner.a2f5142ba8328dfd-ready{
+.spinner_a2f514.ready_a2f514{
 	display: none;
 }
 
-.a2f5142ba8328dfd-text {
+.text_a2f514 {
 	margin-top: 300px;
 }
 
 
 /*userbar funny triangles*/
-._5ec2fb8b5de26b21-peopleList .cc61794aab086a2e-peopleListItem,
-._99f8cc7ad4790ce9-content .cc61794aab086a2e-peopleListItem {
+.peopleList__5ec2f .peopleListItem_cc6179,
+.content__99f8c .peopleListItem_cc6179 {
 	background-image: url('https://raw.githubusercontent.com/MiyakuKage/discord-momotalk/refs/heads/testing-features-and-assets/img/img-dev/profile-bg2-inverted.png') !important;
 	background-position: right !important;
 	background-repeat: no-repeat !important;
@@ -882,12 +882,12 @@ border-color: transparent !important;
 }
 
 
-.fc004c9c041aaefa-actions {
+.actions_fc004c {
 	margin-right: 1% !important;
 }
 
 /* Game invitation embed */
-.b7e1cb0370c2dd0e-container:has(._98ba899df138d534-embed) {
+.container_b7e1cb:has(.embed__98ba8) {
 	width: 300px;
 }
 
@@ -900,17 +900,17 @@ border-color: transparent !important;
 
 /* Arona in friends */
 
-._7d20cf18f8a2784c-scroller {
+.scroller__7d20c {
 	background-image: var(--characterfriendsLIGHT);	
 }
 
-	.b7e1cb0370c2dd0e-container {
+	.container_b7e1cb {
 		background-color: var(--embedcolorLIGHT) !important;
 				border: 2px solid var(--embedborderLIGHT);
 	}
 
 /* Arona in main chat AND background*/
-.f75fb00fb7356cbe-chatContent {
+.chatContent_f75fb0 {
 	background-image: var(--bgcharacterLIGHT), var(--bgimageLIGHT) !important;
 	background-size: auto 80%, cover !important;
 	background-repeat: no-repeat, no-repeat !important;
@@ -918,41 +918,41 @@ border-color: transparent !important;
 	background-attachment: fixed, fixed !important;
 	background-color: var(--backgroundcolorLIGHT) !important;
 }
-._36d072eab2b2e737-chatGradient {
+.chatGradient__36d07 {
 	background: var(--backgroundcolorLIGHT) !important;
 }
-.a21736575ea33af0-voiceCallWrapper {
+.voiceCallWrapper_a21736 {
 	background-image: var(--callimageLIGHT) !important;
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
 	background-attachment: fixed !important;
 }
-.f75fb00fb7356cbe-chat{
+.chat_f75fb0{
 	background-color: var(--channeltopbarLIGHT) !important;
 }
 
 /* Colors */
-._740174f3d6a2c8fe-themedBackground{ /* Typing area */
+.themedBackground__74017{ /* Typing area */
 	background-color: var(--senseimessagebubbleLIGHT);
 }
-.f75fb00fb7356cbe-channelBottomBarArea svg{
+.channelBottomBarArea_f75fb0 svg{
 	color: var(--messagefontcolorLIGHT);
 }
-._1b31f471f0bb10ab-placeholder.ec4baf0360ff3578-slateTextArea.fontSize16Padding__74017{
+.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017{
 	color: white;
 
 }
-._5e434347c823b592-panels { /* User Thing */
+.panels__5e434 { /* User Thing */
 	background-color: var(--momotalkbannerLIGHT) !important;
 }
 
-.ef3116c2da186559-wrapper._5e434347c823b592-guilds { /* server list */
+.wrapper_ef3116.guilds__5e434 { /* server list */
 	background-color: var(--serverlistLIGHT);
 }
 
 
 /* Top bar */
-.c38106a3f0c3ca76-bar{
+.bar_c38106{
 	background-color: var(--momotalkbannerLIGHT);
 
 	/* the little discord icon as well as inbox and help */
@@ -961,7 +961,7 @@ border-color: transparent !important;
 	}
 
 	/* direct message text */
-	._4bd5201c86a2042b-lineClamp1{
+	.lineClamp1__4bd52{
 		color: var(--messagefontcolorLIGHT);
 	}
 
@@ -980,24 +980,24 @@ border-color: transparent !important;
 }
 
 /* Message font */
-._752971923a1e6683-markup {
+.markup__75297 {
 	color: var(--messagefontcolorLIGHT);
 }
 
 /* Usernames */
-.c19a557985eb7793-username {
+.username_c19a55 {
 	color: var(--usernameLIGHT);
 	text-shadow: -1px -1px 0 var(--usernameoutlineLIGHT), 1px -1px 0 var(--usernameoutlineLIGHT), -1px 1px 0 var(--usernameoutlineLIGHT), 1px 1px 0 var(--usernameoutlineLIGHT);
 }
 
 
 /* NEW messages */
-._0f481cbbd7530492-newMessagesBar._0f481cbbd7530492-barBase {
+.newMessagesBar__0f481.barBase__0f481 {
 background-color: var(--momotalkbannerLIGHT) !important;
 }
 
-.group-spacing-16._5126c0cd07f243a0-divider._5126c0cd07f243a0-beforeGroup,
-._5126c0cd07f243a0-divider._908e20001ad67812-divider._908e20001ad67812-isUnread {
+.group-spacing-16.divider__5126c.beforeGroup__5126c,
+.divider__5126c.divider__908e2.isUnread__908e2 {
    border-color: var(--newmessagesLIGHT);
 
 }
@@ -1007,138 +1007,138 @@ background-color: var(--momotalkbannerLIGHT) !important;
 	background-color: var(--momotalkbannerLIGHT);
 
 }
-._5e434347c823b592-sidebarList._5e434347c823b592-sidebarListRounded{
+.sidebarList__5e434.sidebarListRounded__5e434{
 	background-color: var(--sidebarLIGHT);
 }
-.e6b7699ce8339e1c-privateChannels {
+.privateChannels_e6b769 {
 	background-color: var(--sidebarLIGHT);
 }
 
-._506b39a96c2f8884-scrollbarGhostHairline._506b39a96c2f8884-scrollbar.hljs { /* Code Block */
+.scrollbarGhostHairline__506b3.scrollbar__506b3.hljs { /* Code Block */
 	background-color: #8cc8de !important;
 	color: white !important;
 }
 
-._4d95d73152192cf9-textContainer.hljs {
+.textContainer__4d95d.hljs {
 	color: white !important;
 }
 
 /* BIG TEXT */
-._752971923a1e6683-markup h3 {
+.markup__75297 h3 {
 	color: var(--messagefontcolorLIGHT);
 }
 
-._752971923a1e6683-markup h2 {
+.markup__75297 h2 {
 	color: var(--messagefontcolorLIGHT);
 }
-._752971923a1e6683-markup h1 {
+.markup__75297 h1 {
 	color: var(--messagefontcolorLIGHT);
 }
 
 /* small text */
-._752971923a1e6683-markup small:not(._752971923a1e6683-inlineFormat) {
+.markup__75297 small:not(.inlineFormat__75297) {
 	color: var(--messagefontcolorLIGHT);
 }
 
 
 
 /* file popup icons */
-.f7ecaca5c80dbf3a-wrapper {
+.wrapper_f7ecac {
 	path {
 		fill: var(--newtextcolorLIGHT);
 	}
 }
 
 /*more on messag */
-.f84418acfdbdfe54-hoverBarButton.f7ecaca5c80dbf3a-button
-.f84418acfdbdfe54-icon :not(.emoji._040f07d21e1fb0d6-emoji) {
+.hoverBarButton_f84418.button_f7ecac
+.icon_f84418 :not(.emoji.emoji__040f0) {
 	filter: var(--hovericoncolorLIGHT)
 }
 
 /*sidebar little gap fix*/
-._5e434347c823b592-sidebarList {
+.sidebarList__5e434 {
     background-color: var(--sidebarLIGHT);
 }
 
-._2637a2609f343032-container {
+.container__2637a {
 	background-color: var(--sidebarLIGHT) ;
 }
 
-	.c8ffbb79449f399c-container {
+	.container_c8ffbb {
 	background-color: var(--sidebarLIGHT);
 }
-	.c8ffbb79449f399c-members {
+	.members_c8ffbb {
 	background-color: var(--sidebarLIGHT);
 
-		.c8ffbb79449f399c-member {
+		.member_c8ffbb {
 			background-color: var(--sidebarLIGHT);
 		}
 	}
-	.e6b7699ce8339e1c-searchBar {
+	.searchBar_e6b769 {
 		background-color: var(--sidebarLIGHT) !important;
 }
 
 /* DM list*/
-._99e7cad8d4c55236-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase.d125d22cdfd32cfe-fade {
+.scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 {
 	background-color: var(--sidebarLIGHT);
 	border: 5px;
 }
 
 
-._5e434347c823b592-sidebarList,
-._5e434347c823b592-sidebarListRounded {
+.sidebarList__5e434,
+.sidebarListRounded__5e434 {
 	border-right: 2px solid var(--sidebarborderLIGHT); 
 }
 
-.f75fb00fb7356cbe-title._9293f6b2fc12398a-container._9293f6b2fc12398a-themed {
+.title_f75fb0.container__9293f.themed__9293f {
 	background-color: var(--channeltopbarLIGHT);
 }
 
 
-._59d0d7075b521375-layer
-._55c999adcf6db265-container {
+.layer__59d0d
+.container__55c99 {
 	background-color: var(--sidebarLIGHT);
 }
 
 
 /*quick switcher*/
 .container_ac6cb0
-.ac6cb02cd15b4b3b-quickswitcher {
+.quickswitcher_ac6cb0 {
 	background-color: var(--sidebarLIGHT);
 }
 
-.ac6cb02cd15b4b3b-scroller._99f8cc7ad4790ce9-auto {
+.scroller_ac6cb0.auto__99f8c {
 	background-color: var(--sidebarLIGHT);
 }
 
 /*search result*/
-.a9e7064fdee8e9b0-searchResultsWrap
-.f3b986a284a18c78-searchHeader {
+.searchResultsWrap_a98f3b
+.searchHeader_ae7890 {
 	background-color: var(--sidebarLIGHT);
 }
 
-.a9e7064fdee8e9b0-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase {
+.scroller_a98f3b.thin_d125d2.scrollerBase_d125d2 {
 	background-color: var(--sidebarLIGHT);
 }
 
-._5126c0cd07f243a0-message
-.c19a557985eb7793-repliedTextPreview
-.c19a557985eb7793-repliedTextContent {
+.message__5126c
+.repliedTextPreview_c19a55
+.repliedTextContent_c19a55 {
     color: gray;
 }
 
 
 /*Activity Tab above your profile*/
-._5dec784a68542d60-panel._5e434347c823b592-activityPanel {
+.panel__5dec7.activityPanel__5e434 {
 	background-color: var(--momotalkbannerLIGHT) !important;
 }
 
 /*add and discover server button*/
-._5bc7ed9d4097f6b5-circleIconButton {
+.circleIconButton__5bc7e {
 	background-color: var(--serverlistLIGHT);
 }
 
-#add_friend-tab._133bf5eea8e33a34-peopleColumn {
+#add_friend-tab.peopleColumn__133bf {
 	background-image: url('https://miyakukage.github.io/discord-momotalk/img/miyu.png');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1147,24 +1147,24 @@ background-color: var(--momotalkbannerLIGHT) !important;
 
 	
 /*code file preview*/
-._6c706db0523bd9a7-mosaicItem
-._4d95d73152192cf9-textContainer
-._506b39a96c2f8884-scrollbarGhostHairline {
+.mosaicItem__6c706
+.textContainer__4d95d
+.scrollbarGhostHairline__506b3 {
 	background-color: #8aabd2 !important;
 }
 
 /*little buttons on server selection*/
-._581051df43c5ebb6-item {
+.item__58105 {
 	background-color: #FFFFFF;
 }
 
 /* Links colors */
-.c19a557985eb7793-messageContent .edefb8e22d63c542-anchor.edefb8e22d63c542-anchorUnderlineOnHover{
+.messageContent_c19a55 .anchor_edefb8.anchorUnderlineOnHover_edefb8{
 	color: var(--text-linkLIGHT);
 }
 
 /* funky loading screen */
-.a2f5142ba8328dfd-container{
+.container_a2f514{
 	background-color: var(--momotalkbannerLIGHT) !important;
 }
 
