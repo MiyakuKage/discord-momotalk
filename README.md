@@ -8,7 +8,7 @@
 
 <h2>And if you post screenshots of this somewhere, please tag me, I wanna see how you customize it!</h2>
 <hr>
-Last Updated : 13/01/2026<br>
+Last Updated : 01/02/2026<br>
 <h3> HOW TO INSTALL </h3>
 <h2> VENCORD </h2>
 ● 1. Install the Discord Desktop App, then the Vencord mod for it.<br>
@@ -36,6 +36,9 @@ Last Updated : 13/01/2026<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 01/02/2026 <br>
+	- Fixed missing right margin in the pending friend list 
+	<br>
       	 <br> 25/01/2026 <br>
 	- Fixed discord's mess AGAIN. Theme attributes seems to be still broken on BetterDiscord, but it works fine on Vencord.
 	<br>
