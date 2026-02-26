@@ -743,7 +743,7 @@ background-color: var(--momotalkbanner) !important;
 		font-weight: bold;
 		}
 	}
-	.searchBar_e6b769 {
+html:not(.custom-theme-background) .searchBar_e6b769 {
 		background-color: var(--sidebar) !important;
 }
 
@@ -1074,7 +1074,7 @@ background-color: var(--momotalkbannerLIGHT) !important;
 			background-color: var(--sidebarLIGHT);
 		}
 	}
-	.searchBar_e6b769 {
+html:not(.custom-theme-background) .searchBar_e6b769 {
 		background-color: var(--sidebarLIGHT) !important;
 }
 
