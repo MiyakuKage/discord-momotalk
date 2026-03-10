@@ -1,7 +1,7 @@
 /**
   * @name SOURCE - MomoTalk (Visual Refresh)
   * @author yumemiya - elatedcard - kyonakansou - kuurp
-  * @version 3.5
+  * @version 3.5.1
   * @description A theme based on the MomoTalk app from the Blue Archive Game!
   * @source https://github.com/MiyakuKage/discord-momotalk
 */
@@ -128,8 +128,8 @@
 .wrapper_d852db {
     background-image: url('https://miyakukage.github.io/discord-momotalk/img/aronaLoading.gif');
     background-repeat: no-repeat;
-    background-position: right 2% bottom 10%;
-    background-size: 100px;
+    background-position: right 2% bottom 14%;
+    background-size: 10%;
     background-color: transparent;
     background-attachment: fixed;
     z-index: 1000;
@@ -1074,9 +1074,11 @@ background-color: var(--momotalkbannerLIGHT) !important;
 			background-color: var(--sidebarLIGHT);
 		}
 	}
-html:not(.custom-theme-background) .searchBar_e6b769 {
-		background-color: var(--sidebarLIGHT) !important;
+
+.searchBar_e6b769{
+	background-color: var(--channeltopbarLIGHT) !important;
 }
+
 
 /* DM list*/
 .scroller__99e7c.thin_d125d2.scrollerBase_d125d2.fade_d125d2 {
@@ -1170,6 +1172,14 @@ html:not(.custom-theme-background) .searchBar_e6b769 {
 
 
 
+.placeholder__1b31f {
+	color: var(--sidebarLIGHT);
 
-
+}
+.expression-picker-chat-input-button.buttonContainer__74017 {
+    filter: brightness(100);
+}
+.expression-picker-chat-input-button.buttonContainer__74017:hover {
+    filter: brightness(1);
+}
 } /* LIGHTMODE END */
