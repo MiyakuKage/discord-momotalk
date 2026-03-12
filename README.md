@@ -36,6 +36,9 @@ Last Updated : 01/02/2026<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 12/03/2026 <br>
+	- Fixed the text color of the block quotes
+	<br>
       	 <br> 26/02/2026 <br>
 	- Fixed "Find or start a conversation" background color when a color gradient is enabled
 	<br>

@@ -699,6 +699,11 @@ background-color: var(--momotalkbanner) !important;
 	filter: var(--hovericoncolor)
 }
 
+/* Block quote message text */
+.blockquoteContainer__75297 span {
+	color: #c5c6ca;
+}
+
 /*sidebar little gap fix*/
 .sidebarList__5e434 {
     background-color: var(--sidebar);
