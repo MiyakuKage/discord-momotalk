@@ -36,6 +36,9 @@ Last Updated : 01/02/2026<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 13/04/2026 <br>
+	- Removed the text-shadow for gradient usernames
+	<br>
       	 <br> 12/03/2026 <br>
 	- Fixed the text color of the block quotes
 	<br>
