@@ -357,7 +357,7 @@
     text-shadow: -1px -1px 0 var(--usernameoutline), 1px -1px 0 var(--usernameoutline), -1px 1px 0 var(--usernameoutline), 1px 1px 0 var(--usernameoutline);
 }
 /* Remove outline for user with effects */
-.username_c19a55 span {
+.username_c19a55 span, .username_c19a55.usernameGradient_e5de78 {
     text-shadow: none;
 }
 
