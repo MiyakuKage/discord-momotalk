@@ -245,6 +245,11 @@
 
 .wrapper_ef3116.guilds__5e434 { /* server list */
 	background-color: var(--serverlist);
+
+	/* Removing the transparent mask at the bottom */
+	mask: none;
+	margin-bottom: 0px;
+	padding-bottom: 46px;
 }
 
 
@@ -309,6 +314,11 @@
 	background-position: left !important;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+/* Hiding the arrow on top of the logo */
+.leading_c38106 {
+	opacity: 0;
 }
 
 

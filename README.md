@@ -36,6 +36,10 @@ Last Updated : 01/02/2026<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 11/06/2026 <br>
+	- Removed the grey gradient at the bottom of the server list
+	- Removed the arrows that were on top of the Momotalk logo
+	<br>
       	 <br> 13/04/2026 <br>
 	- Removed the text-shadow for gradient usernames
 	<br>
