@@ -493,6 +493,10 @@
 	
 }
 
+.compactEmbed__403f1 {
+	width: unset;
+}
+
 /* Other Message Container */
 [data-is-self="false"] .message__5126c {
 	align-items: start;

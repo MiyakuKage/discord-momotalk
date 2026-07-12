@@ -36,6 +36,9 @@ Last Updated : 01/02/2026<br>
 <br><br>
 <hr>
 <h4>Changelog :</h4>
+      	 <br> 21/07/2026 <br>
+	- Fixed expired invite embed's width
+	<br></h4>
       	 <br> 11/06/2026 <br>
 	- Removed the grey gradient at the bottom of the server list
 	- Removed the arrows that were on top of the Momotalk logo
