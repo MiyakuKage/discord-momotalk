@@ -37,6 +37,8 @@ Last Updated : 01/02/2026<br>
 <hr>
 <h4>Changelog :</h4>
       	 <br> 21/07/2026 <br>
+	- Fixed yet another issue with a light mode variable not being tied to light mode in the Release file
+      	 <br> 21/07/2026 <br>
 	- Fixed expired invite embed's width
 	<br></h4>
       	 <br> 11/06/2026 <br>
