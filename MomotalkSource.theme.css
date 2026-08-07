@@ -200,6 +200,18 @@
 	background-repeat: no-repeat !important;
 	background-attachment: fixed !important;
 }
+
+/* thread tab*/
+.container__34c2c {
+	background-color: var(--backgroundcolor);
+	border-bottom-right-radius: 15px;
+}
+
+/* activity tab*/
+.container__0f2e8 {
+	background-color: var(--backgroundcolor);
+}
+
 /* killing wumpus */
 .addFriendWumpusWrapper__72ba7 img {
 	visibility: hidden;
@@ -946,6 +958,18 @@ border-color: transparent !important;
 	background-repeat: no-repeat !important;
 	background-attachment: fixed !important;
 }
+
+/* thread tab*/
+.container__34c2c {
+	background-color: var(--backgroundcolorLIGHT);
+	border-bottom-right-radius: 15px;
+}
+
+/* activity tab*/
+.container__0f2e8 {
+	background-color: var(--backgroundcolorLIGHT);
+}
+	
 .chat_f75fb0{
 	background-color: var(--channeltopbarLIGHT) !important;
 }
