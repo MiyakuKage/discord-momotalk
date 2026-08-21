@@ -193,6 +193,14 @@
 	background: var(--backgroundcolor) !important;
 }
 
+/* typing gradient all the way to the bottom */
+.chatTypingGradientNotAtBottom__36d07 {
+    height: 135px;
+}
+.chatGradientBase__36d07 {
+    bottom: -48px;
+}
+
 .voiceCallWrapper_a21736 {
 	background-image: var(--callimage) !important;
 	background-size: contain !important;
