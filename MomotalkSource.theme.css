@@ -163,16 +163,16 @@
 }
 
 /* Hide everything inside */
-.preview__3e443 > * {
+.preview__6b741 > * {
   display: none !important;
 }
 
 /* Add your replacement image */
-.preview__3e443::before {
+.preview__6b741::before {
   content: "";
   display: block;
   width: 100%;   /* set your size */
-  height: 100%;
+  height: 200px;
   background: url('https://miyakukage.github.io/discord-momotalk/img/kohawarn.png') no-repeat center center;
   background-size: contain; /* or cover */
 }
