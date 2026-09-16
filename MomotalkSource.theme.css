@@ -929,6 +929,22 @@ border-color: transparent !important;
 	width: 300px;
 }
 
+/* custom typing gradient */
+.form_f75fb0.formWithLoadedChatInput_f75fb0::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 95px;
+  pointer-events: none;
+  background: linear-gradient(transparent 0%, var(--backgroundcolor) 50%, var(--backgroundcolor) 100%);
+
+  }
+
+  .chatTypingGradientNotAtBottom__36d07 {
+    display: none;
+  }
 /* ---------------- LIGHT MODE ---------------- */
 .theme-light.images-light {
 
@@ -1232,4 +1248,10 @@ background-color: var(--momotalkbannerLIGHT) !important;
 .expression-picker-chat-input-button.buttonContainer__74017:hover {
     filter: brightness(1);
 }
+
+	.form_f75fb0.formWithLoadedChatInput_f75fb0::before{
+  background: linear-gradient(transparent 0%, var(--backgroundcolorLIGHT) 50%, var(--backgroundcolorLIGHT) 100%);
+
+  }
+
 } /* LIGHTMODE END */
